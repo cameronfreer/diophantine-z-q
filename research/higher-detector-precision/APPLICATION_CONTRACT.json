@@ -1,0 +1,304 @@
+{
+  "format": "higher-precision-author-application-contract-v1",
+  "status": "author_argument_pending_independent_review",
+  "authors": [
+    "Codex /root, Cameron session 2026-11-08"
+  ],
+  "independentAcceptance": false,
+  "parentCommit": "a1f9233049cc0f8aeb2a6ccd7e7b613cec3c1ec0",
+  "proof": {
+    "path": "research/higher-detector-precision/PROOF.md",
+    "sha256": "771c9c1534892148a12f43d543be7d7fd56d121659d3891bf43de4055be37c46"
+  },
+  "sources": [
+    {
+      "id": "formal-log",
+      "path": "manuscripts/quartic_v10.tex",
+      "locator": "9220\u20139258: actual recurrence, differential identity and factorial denominator bound",
+      "sha256": "9559b22cc581346da1b3150fa9b8dfb62cfb048f6aac0b866448ae7ae879ff38"
+    },
+    {
+      "id": "present-ratios",
+      "path": "manuscripts/quartic_v13.tex",
+      "locator": "19689\u201319706: actual u/h and (u-n)/(h-1) comparisons, before and after integrality",
+      "sha256": "9db71bbfcefb37db56eabcf40a5f9dd85de9ed58294635da3dbf6d4f5caa8fcd"
+    },
+    {
+      "id": "prime-separation",
+      "path": "manuscripts/quartic_v13.tex",
+      "locator": "19708\u201319746: fixed-data separation and primary progression",
+      "sha256": "9db71bbfcefb37db56eabcf40a5f9dd85de9ed58294635da3dbf6d4f5caa8fcd"
+    },
+    {
+      "id": "small-prime-log",
+      "path": "research/conditional-quartic-reduction/proofs/prior/round5/geometry_round5.tex",
+      "locator": "1\u201395: actual degree-12 polynomial, positivity, small-prime tail and unit estimate",
+      "sha256": "3d5f0fff2fc45bd2b7504c933a8583367555d10e78a18b9885c2d01a151261bb"
+    },
+    {
+      "id": "small-prime-comparison",
+      "path": "research/conditional-quartic-reduction/proofs/prior/round5/arithmetic_round5.tex",
+      "locator": "145\u2013182: exceptional set, G2 tail and identity branch",
+      "sha256": "d00e2c36e19ee4616c99a0a9a74f2a2bdc1ed32734689bb61c0cedc55e5e1806"
+    },
+    {
+      "id": "old-order45",
+      "path": "research/conditional-quartic-reduction/proofs/prior/round6/arithmetic_round6.tex",
+      "locator": "173\u2013200: earlier order-45 tail bound",
+      "sha256": "b306e3f5e118dfdc8a5884c6e53acc7a1492a3f86919ddf9f19cc9d691180724"
+    },
+    {
+      "id": "weights",
+      "path": "research/conditional-quartic-reduction/proofs/detector_round7.tex",
+      "locator": "Normalization freedom, compute weights, domains, completeness at contacts/other primes/infinity",
+      "sha256": "ed01c9416d3b4daf02a26958642194230c0186a896f17817bfe30c8a16d481d3"
+    },
+    {
+      "id": "height",
+      "path": "research/conditional-quartic-reduction/proofs/arithmetic_round8.tex",
+      "locator": "Height constant, retained even anchor, actual consumers and numerical margins",
+      "sha256": "826523050c2f0d315561ae064124b420862ff09eeafaa63437e0339ce7c22f7b"
+    },
+    {
+      "id": "chain",
+      "path": "research/scalar-chain-reduction/PROOF.md",
+      "locator": "Order-31 scalar proof, finite preparation and all height consumers",
+      "sha256": "710088f6d9517c966a55a54e9d6adb383a335d705b7b4ca5a0f1dbde16f6be4d"
+    },
+    {
+      "id": "zero",
+      "path": "research/scalar-preparation-zero/PROOF.md",
+      "locator": "Actual order-31 zero preparation, real limit, fixed-data prime and progression construction",
+      "sha256": "79bb5a8c5ce16c6b4559848739aeb78b7d23eb4a90f2ff0ad8ccf97a3674280a"
+    }
+  ],
+  "obligations": [
+    {
+      "id": "source_hypotheses",
+      "requiredInput": "Formal nonidentity points at every admitted unramified place; arbitrary positive detector weights of the stated order.",
+      "constructedInput": "Same curve D and exceptional set; m=46 or 47.",
+      "justification": "Reapply the primary recurrence and factorial estimate at p>=11, checking the entire tail; never invoke the original large-prime cutoff conclusion directly.",
+      "consumer": "PROOF.md: The existing logarithm; Exact weight circuits",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "constructed_objects",
+      "requiredInput": "The source field, normalized valuation, physical pole input and original sixteen tests.",
+      "constructedInput": "Unchanged K, D, raw tests, R and positive chart; changed q_m and anchor.",
+      "justification": "Three actual weight equations are replaced and three lift equations added; all outside rows and guards are compared after name identification.",
+      "consumer": "PROOF.md: Exact weight circuits",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "index_domain_coverage",
+      "requiredInput": "All omitted indices j>=13, both split and inert places, every integer input in completeness.",
+      "constructedInput": "Separate exact j=13 bound and monotone all-j>=14 estimate; all places over every admitted p.",
+      "justification": "No finite tail cutoff is substituted for the infinite series. No Euler-system index set changes; all actual final congruences are covered.",
+      "consumer": "PROOF.md: The existing logarithm; Completeness",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "transition_maps",
+      "requiredInput": "Relative logarithm bounds must become absolute only for integral ratios; circuits must preserve the correct R.",
+      "constructedInput": "Two-anchor integrality first, then absolute comparison; q46=E^45 q1^46 and q47=E^46 q1^47.",
+      "justification": "Use q1 nonzero and delta^2=E/q1; preserve B=R/Tr(W^-1)^2. No Euler or normalization factor is discarded.",
+      "consumer": "PROOF.md: Local soundness; Exact weight circuits",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "downstream_object_identity",
+      "requiredInput": "The labels and radical used in the actual height transfer and the actual final H.",
+      "constructedInput": "Same literal Lucas residual, same beta and scalar index; actual H in the compatible progression and real neighborhood.",
+      "justification": "Full ratios are u/h and (u-n)/(h-1); their subtraction gives the same labels. No limiting point or rational norm replaces the consumed object.",
+      "consumer": "PROOF.md: Local soundness; Completeness; Anchor",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "conventions",
+      "requiredInput": "Rational valuation normalization, positive real domains and the fixed input coordinate.",
+      "constructedInput": "v(p)=1; q1,E,delta positive; diagonal scaling fixes X.",
+      "justification": "Unramified valuations are integral. D is a unit outside seven. Coefficients remain rational before primitive integral row normalization.",
+      "consumer": "PROOF.md: The existing logarithm; Exact weight circuits; Measured alternatives",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "local_conditions",
+      "requiredInput": "Contact valuations, small-prime preparation, real b<17, scalar depth and anchor divisibility simultaneously.",
+      "constructedInput": "Pi^(m-1) replaces Pi^44; anchor index depth 1007; all finite data fixed before contact primes.",
+      "justification": "The exact gcds make the new CRT compatible; positive-tail density chooses the actual shared H. Weight asymptotics and small-prime slopes preserve every pole condition.",
+      "consumer": "PROOF.md: Completeness; Anchor",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "exceptional_cases",
+      "requiredInput": "Identity input, zero pole witnesses, p=53 tail loss, p=41 scalar case, positivity guards.",
+      "constructedInput": "Retain the identity cross-test branch and all guards; existing scalar and factored-pole zero cases unchanged.",
+      "justification": "Do not form log(O)/z(O); do not divide by a factored witness. At 53 use loss one, so do not claim precision 52.",
+      "consumer": "PROOF.md: The existing logarithm; Local soundness; Completeness",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    },
+    {
+      "id": "consumer_coverage",
+      "requiredInput": "Scalar, Lucas and input height contradictions and exact compiled coefficient output.",
+      "constructedInput": "Scalar31, high46/47, input12 at anchor2016.",
+      "justification": "Check all integer sufficient margins, full compilation, conic transport and every scaled coefficient. No inferred addition of local source savings.",
+      "consumer": "PROOF.md: Anchor; Measured alternatives",
+      "sources": [
+        "formal-log",
+        "present-ratios",
+        "prime-separation",
+        "small-prime-log",
+        "small-prime-comparison",
+        "old-order45",
+        "weights",
+        "height",
+        "chain",
+        "zero"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "check_precision.py",
+        "EXPECTED.json",
+        "experiment.py"
+      ]
+    }
+  ],
+  "manuscriptDisposition": "pending; no current manuscript or acceptance record changed",
+  "historicalDisposition": "Prior recurrence, factorial tail, weight normalization, local comparisons and simultaneous progression arguments found and read; sharper application and changed consumers supplied here. No priority or exhaustive-history claim."
+}
