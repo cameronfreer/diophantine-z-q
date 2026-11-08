@@ -135,7 +135,7 @@
       "evidenceCommit": "490d14ef06d3369b7a68a07a5202e017d794549c",
       "currentConsumers": [
         "research/conditional-quartic-reduction/reproduce.py:regular_file and validate_specification, optimization guard and child environment",
-        "research/conditional-quartic-reduction/EXPECTED_OUTPUTS.json:excludedNondeterministic"
+        "research/conditional-quartic-reduction/EXPECTED_OUTPUTS.json:diagnosticsNotByteCompared and diagnosticReason"
       ],
       "manuscriptDisposition": "not a manuscript change"
     }
