@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "status": "PASS",
+  "scope": "Exact finite checks, not a proof of inherited arithmetic or simultaneous completeness.",
+  "sourceFiles": 58,
+  "sourceCommit": "a1f9233049cc0f8aeb2a6ccd7e7b613cec3c1ec0",
+  "normalizationResidualFactors": {
+    "normalizedFirstToSource": "b/17",
+    "normalizedSecondToSource": "b^4"
+  },
+  "chainRealLimitChecked": true,
+  "rhoCompleteResidues": {
+    "32": 4,
+    "243": 81,
+    "17": 13
+  },
+  "unusedCoordinates": [
+    {
+      "id": 52,
+      "name": "scalar.preparationU",
+      "kind": "base",
+      "protected": false,
+      "block": "base",
+      "sourceLines": [
+        2354,
+        2487
+      ]
+    },
+    {
+      "id": 53,
+      "name": "scalar.preparationV",
+      "kind": "base",
+      "protected": false,
+      "block": "base",
+      "sourceLines": [
+        2354,
+        2487
+      ]
+    }
+  ],
+  "allCompiledResidualsPreserved": true,
+  "coefficients": {
+    "variables": 383,
+    "residuals": 352,
+    "monomials": 26019,
+    "maxDigits": 682,
+    "maxBits": 2266,
+    "polynomialSha256": "68d5aa4f1e71f761f3eeabfc5b949e1b24af434bf0479f6aa9102fce4e99b62e",
+    "tableSha256": "8faea54ef4a9d8cf155205a50c956df20d36e3eec4183b50b39b2c0b87183b0d"
+  }
+}

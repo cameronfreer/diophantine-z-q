@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Finite reproduction and source comparison; independent mathematical acceptance pending.",
+  "independentAcceptance": false,
+  "contractSha256": "1ed004c5e93dd014b6a546902fb6fc03ecde61fafcbd9c2f23d8206cc83719bb",
+  "baselineWasRebuilt": false,
+  "sourceIrSha256": "1e9071816ccb40d562545be08f21ccac76813a64796173d155d0d3ae7dbebb50",
+  "completedStages": [
+    "Check the complete parent import and reproduction",
+    "Transport the four conics",
+    "Check transport identities, consumers and exceptional branches",
+    "Apply the unchanged parent diagonal scaling",
+    "Check all diagonal substitutions and every quartic coefficient"
+  ],
+  "summary": {
+    "coordinates": 385,
+    "residuals": 353,
+    "degree": 4,
+    "monomials": 26235,
+    "integerContent": 1,
+    "inputFourthPowerCoefficient": "1",
+    "maximumCoefficientDigits": 757,
+    "maximumCoefficientBits": 2513,
+    "scaledCoordinates": 13,
+    "ternaryScaledCoordinates": 12,
+    "dyadicScaledCoordinates": 2,
+    "anchorExponent": 2364,
+    "cExponent": 394,
+    "tableSha256": "47da004230ff7a20c7a0824738422eb9c29c4a6e6de92455e3d956e979161ecf",
+    "tableBytes": 1048785,
+    "certificateSha256": "091a90bfb52ad7090796d1f910607bf2ad15a3b070961c6c0a8aac0b0c8c12f0"
+  },
+  "reports": [
+    {
+      "path": "parent-check.json",
+      "sha256": "e78495fc509474726a04c0f1ee66beba73d78255428f5e79d7e57a3759c0563b"
+    },
+    {
+      "path": "candidate385/transport-check.json",
+      "sha256": "0bcfa9a4de1786a65184e70615dfbaa1c51938e5334db2d53e24b6bdc86996ba"
+    },
+    {
+      "path": "candidate385/diagonal-check.json",
+      "sha256": "6380c9950e30649272570127e375529235c566c495edae6f0d52a7f6936ca17b"
+    }
+  ]
+}

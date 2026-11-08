@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "status": "PASS",
+  "scope": "Finite source binding, exact arithmetic, fixed split-41 residues, and complete coefficient recomputation. Not proof of inherited arithmetic.",
+  "sourceFiles": 52,
+  "bounds": {
+    "A": "1/4",
+    "J1": "31/4",
+    "B": "31/8",
+    "J2": "91/8",
+    "C": "91/16",
+    "J3": "211/16",
+    "D0": "211/32",
+    "y": "451/32",
+    "Tproxy": "963/32"
+  },
+  "split41": {
+    "sqrt2Residues": [
+      17,
+      24
+    ],
+    "hPResidues": [
+      39,
+      0
+    ],
+    "negativeHalfTraceResidue": 1
+  },
+  "height": {
+    "heightConstantBits": 665,
+    "scalarRatioFloorBits": 39390,
+    "lucasRatioFloorBits": 389,
+    "allThreeMargins": true
+  },
+  "expansions": [
+    {
+      "pr": "PR9",
+      "residuals": 353,
+      "monomials": 26235,
+      "maximumDigits": 757,
+      "maximumBits": 2513,
+      "balancedIrSha256": "102af204937f709defb6725eaedc7e8d97bb01fdb635a27d91eba9a89c949c85",
+      "polynomialSha256": "65e3cca0e9add503bc16d64db63ac2a80b07f8b69b7b687d1089099d542bfb74"
+    },
+    {
+      "pr": "PR11",
+      "residuals": 353,
+      "monomials": 26200,
+      "maximumDigits": 682,
+      "maximumBits": 2266,
+      "balancedIrSha256": "95250ff77fd9094c8069a64a44e5c1cb62d67b0ca91a3052eb3b09054d8ef759",
+      "polynomialSha256": "a2ad5ecf2b68fdd5d5f91f5279e55731f1e81a6996acd5fa65ea22858223780c"
+    }
+  ]
+}

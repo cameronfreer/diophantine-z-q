@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "00f1accc3f4bc2b9d27da6c9517c536898cea9c035647022fd6534bb349201fd"
+    },
+    {
+      "path": "FINDINGS.json",
+      "sha256": "4baa6704e2cf7373f43e8ccfac5697a3009e38ea08e93c56949d918c8331d0d4"
+    },
+    {
+      "path": "SOURCE_HASHES.json",
+      "sha256": "12d7490aae5de767c5323d5055243139830010c90c70f21b1c5bcd4d91e3e8b8"
+    },
+    {
+      "path": "INDEPENDENT_CHECKS.json",
+      "sha256": "4d856b858039b675a1df011a989d2aed8630a256252531a91c03f5de96315b85"
+    },
+    {
+      "path": "independent_checks.py",
+      "sha256": "ad1b30fd1adf012f337ed6f01a2583607b99736cc884f4ca9384bdf5bfc53fa1"
+    },
+    {
+      "path": "pr9-replay/reproduction-receipt.json",
+      "sha256": "b6ce7814cffb79bc4c1e2c719a2a2ba150cf3beee6645c55acbcb5e99066e0d8"
+    },
+    {
+      "path": "pr11-replay/reproduction-receipt.json",
+      "sha256": "aa3c348c3b096d1ff093144677f4a3b909cfdeaaf2abbeac48d85f0faa4ea0a4"
+    },
+    {
+      "path": "preparation-zero/REPORT.md",
+      "sha256": "d582f20f2917eb81a37e8259b8b761445e6859cef8dad4cf7deee9f0e4c046ab"
+    },
+    {
+      "path": "preparation-zero/FINDINGS.json",
+      "sha256": "328d702e80fbae58a494d7da0533dcdfef9a82dd7b19cf50cfc76adefce01759"
+    },
+    {
+      "path": "preparation-zero/SOURCE_HASHES.json",
+      "sha256": "66b934a8a652b0c8166da9c627bff263597400c34300ccb32437f626a277ab03"
+    },
+    {
+      "path": "preparation-zero/INDEPENDENT_CHECKS.json",
+      "sha256": "6b5634154d9b43d90bca74069e795c251ae64c3f8d79bdcb13aa85c1d7093a12"
+    },
+    {
+      "path": "preparation-zero/independent_checks.py",
+      "sha256": "f235e48807f20c998baa51da9edff0d4c2ec2f2ecda5b0192f5eb285e6bf8107"
+    },
+    {
+      "path": "preparation-zero/replay/reproduction-receipt.json",
+      "sha256": "5d894a50db9ba12b218dc36ee34e0a839eeffbab4163ac33cc4aa5b09abc4675"
+    }
+  ]
+}
