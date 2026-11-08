@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "independentAcceptance": false,
+  "sourceBindingsSha256": "e0b57359d21816af991eef250e9601bc97eca0b5cf5324a3c79b18fa6366fc83",
+  "experiments": [
+    {
+      "experiment": "chain31",
+      "summary": {
+        "coordinates": 385,
+        "residuals": 353,
+        "degree": 4,
+        "monomials": 26200,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 682,
+        "maximumCoefficientBits": 2266,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2130,
+        "cExponent": 355,
+        "tableSha256": "c9e3e65c64c360c1cbf22c44704776c000294a1a7028e6f3f80bbe500243bdfb",
+        "tableBytes": 1038398,
+        "certificateSha256": "df7105bae753fd2d860d29ff60905f3357a66bc3353081d5405e5b7210f86176"
+      },
+      "sourceReportSha256": "35fce22b655307666cd24672870416a2db862914ca67435c271320c5b2259cda",
+      "gateReportSha256": "d065539198ae469706855f081d959ddb8375756df6a1d21fb09b6d183c344801",
+      "conicReportSha256": "660f27ebccacf8f91f5ec313c012d7ab3d1d6f09804adc8379b1e1994ab10fd7",
+      "coefficientReportSha256": "5006570dc608ec9d1b55953f6f93894602f88b596f10e490f8d53cab3734e4b9"
+    },
+    {
+      "experiment": "chain31-zero",
+      "summary": {
+        "coordinates": 383,
+        "residuals": 352,
+        "degree": 4,
+        "monomials": 26019,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 682,
+        "maximumCoefficientBits": 2266,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2130,
+        "cExponent": 355,
+        "tableSha256": "8faea54ef4a9d8cf155205a50c956df20d36e3eec4183b50b39b2c0b87183b0d",
+        "tableBytes": 1025272,
+        "certificateSha256": "4e1be023150792472c095a5b15a81dd6e421aaa569261a12ce5f9baaee8a4262"
+      },
+      "sourceReportSha256": "64d49d8978423bea135ded8ab90cf11fbb00de39f2f5e29c58ad5104150abe18",
+      "gateReportSha256": "7e2b37794d2a50d8980b90bc7ffc4e999faabc18163580a587c661d895585190",
+      "conicReportSha256": "5d6529ef0b755274d03fdf26f97670e90fa6f84937588f5b4e31870d1aeee630",
+      "coefficientReportSha256": "bcbb8d8936ec813bd0ad50fea7611cdc67891e9bd9d2d8588fe51ea58042db3d"
+    }
+  ]
+}
