@@ -1,0 +1,15 @@
+{
+  "algorithm": "SHA-256",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-08",
+  "encoding": "Exact file bytes; authored text/JSON UTF-8 LF with final newline",
+  "files": {
+    "SCOPE_BINDING_CHECKS.json": "5e6a992c3b314d098d559e8a4b9f35934441d59864b7fed9191d19bd61ec64a9",
+    "FINDINGS.json": "981a835c845e01ff59a1108e53fced16096a872d4f709d05f04108df4d080f4f",
+    "AUDIT_SELF_TEST.json": "5199eca8309475f1893be55ca8f34dbe58228a9f484fb6c94c636d770f7dd2b9",
+    "check_scope_bindings.py": "8bb46906f5831f1af77425f1618dd3fa42ab86c028d72b3600f5a63de6d4f04f",
+    "REPORT.md": "52bb9552d1bef18d11161c28fb8f44831027b53517d8778d5bfd771110bb530c",
+    "check_final_heads.py": "a2444fd2aef525cdf0595fdd7ddd82fe2578ced21a817c7ce35bc4aba7e50d87",
+    "FINAL_HEAD_CHECKS.json": "dcef435bc801e709f26f5f45ae8913d6e79854849b06c8953bf0598d3276e417"
+  }
+}

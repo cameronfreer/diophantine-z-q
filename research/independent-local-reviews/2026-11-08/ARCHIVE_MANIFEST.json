@@ -80,6 +80,47 @@
     {
       "path": "higher-precision/order47/MEASURED.json",
       "sha256": "f53318d6104ff10962803280d719c39e874d1235406f917072fd480f4f9c6288"
+    },
+    {
+      "path": "protocol-v1.2/AUDIT_SELF_TEST.json",
+      "sha256": "5199eca8309475f1893be55ca8f34dbe58228a9f484fb6c94c636d770f7dd2b9"
+    },
+    {
+      "path": "protocol-v1.2/FINAL_HEAD_CHECKS.json",
+      "sha256": "dcef435bc801e709f26f5f45ae8913d6e79854849b06c8953bf0598d3276e417"
+    },
+    {
+      "path": "protocol-v1.2/FINDINGS.json",
+      "sha256": "981a835c845e01ff59a1108e53fced16096a872d4f709d05f04108df4d080f4f"
+    },
+    {
+      "path": "protocol-v1.2/REPORT.md",
+      "sha256": "52bb9552d1bef18d11161c28fb8f44831027b53517d8778d5bfd771110bb530c"
+    },
+    {
+      "path": "protocol-v1.2/REVIEW_MANIFEST.json",
+      "sha256": "726bd168c0ee4841d9da7752ec2563cf374aad9d6aab63227df5876ee0ec8e1f"
+    },
+    {
+      "path": "protocol-v1.2/REVIEW_MANIFEST_SHA256.txt",
+      "sha256": "ba3fa2f4d02a16521a1ebe0b1d0a355ff2b891d92f64eda6cfc6dd5133886686"
+    },
+    {
+      "path": "protocol-v1.2/SCOPE_BINDING_CHECKS.json",
+      "sha256": "5e6a992c3b314d098d559e8a4b9f35934441d59864b7fed9191d19bd61ec64a9"
+    },
+    {
+      "path": "protocol-v1.2/check_final_heads.py",
+      "sha256": "a2444fd2aef525cdf0595fdd7ddd82fe2578ced21a817c7ce35bc4aba7e50d87"
+    },
+    {
+      "path": "protocol-v1.2/check_scope_bindings.py",
+      "sha256": "8bb46906f5831f1af77425f1618dd3fa42ab86c028d72b3600f5a63de6d4f04f"
+    },
+    {
+      "path": "protocol-v1.2/PUBLIC_READBACK.json",
+      "sha256": "9327615e0cd71dff36f15aba16e0e9ef58cbf668e0ffeb7e5ff62052cdd2702b",
+      "authorship": "Integrator; separate from the reviewer-authored manifest"
     }
   ]
 }

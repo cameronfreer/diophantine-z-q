@@ -1,0 +1,85 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-08",
+  "decision": "accepted-within-stated-scope",
+  "scope": "Protocol-v1.2 conditional-research applicability, cumulative handoff coverage, exact updated-head acknowledgment with unchanged mathematics and dependencies",
+  "protocolCommit": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+  "handoffManifestSha256": "22219edd1b719298eafa4c4e52474d0d341170fbe14437b5b8e90919e4eb4178",
+  "finalHeads": [
+    {
+      "pr": 8,
+      "previous": "490d14ef06d3369b7a68a07a5202e017d794549c",
+      "head": "ad7fc75610fb325313a1afd73b2bfbc4ba5a0d71",
+      "fullDiffSha256": "2794375d58e71c6dc68f74b4782e78db774e8c99484d153f7c397b38e2edf9a6",
+      "policyDiffSha256": "bdb6224b480b3a194c21386e794e4ebcc82ace44dfe9468d2c3095711e303c40",
+      "handoffDiffSha256": "2f5ccca1f3260fb353e80f95f9b16d949841586c0bf7183a5a44595870c2a30e",
+      "handoffTree": "7848ce2eaa0107688379af310aac9aef8e328da9"
+    },
+    {
+      "pr": 9,
+      "previous": "6fd131e7ca150d7a023bcb6ac4f1971912705fab",
+      "head": "51111cc97d0f42d50338ae378268700c457497f9",
+      "fullDiffSha256": "2794375d58e71c6dc68f74b4782e78db774e8c99484d153f7c397b38e2edf9a6",
+      "policyDiffSha256": "bdb6224b480b3a194c21386e794e4ebcc82ace44dfe9468d2c3095711e303c40",
+      "handoffDiffSha256": "2f5ccca1f3260fb353e80f95f9b16d949841586c0bf7183a5a44595870c2a30e",
+      "handoffTree": "7848ce2eaa0107688379af310aac9aef8e328da9"
+    },
+    {
+      "pr": 11,
+      "previous": "e3444641dffc2d1cf5a9791111d584110e5dd111",
+      "head": "e8654b2ca24a424cead6b62f3f790136a170d953",
+      "fullDiffSha256": "2794375d58e71c6dc68f74b4782e78db774e8c99484d153f7c397b38e2edf9a6",
+      "policyDiffSha256": "bdb6224b480b3a194c21386e794e4ebcc82ace44dfe9468d2c3095711e303c40",
+      "handoffDiffSha256": "2f5ccca1f3260fb353e80f95f9b16d949841586c0bf7183a5a44595870c2a30e",
+      "handoffTree": "7848ce2eaa0107688379af310aac9aef8e328da9"
+    },
+    {
+      "pr": 12,
+      "previous": "a1f9233049cc0f8aeb2a6ccd7e7b613cec3c1ec0",
+      "head": "772fe96a0e65bee76db500d8ef3a7a6b5e884d1f",
+      "fullDiffSha256": "2794375d58e71c6dc68f74b4782e78db774e8c99484d153f7c397b38e2edf9a6",
+      "policyDiffSha256": "bdb6224b480b3a194c21386e794e4ebcc82ace44dfe9468d2c3095711e303c40",
+      "handoffDiffSha256": "2f5ccca1f3260fb353e80f95f9b16d949841586c0bf7183a5a44595870c2a30e",
+      "handoffTree": "7848ce2eaa0107688379af310aac9aef8e328da9"
+    }
+  ],
+  "findings": [
+    {
+      "id": "delivery-history-coverage",
+      "status": "resolved-within-declared-archive-scope",
+      "concern": "Outside-overlay original reviews were absent from the initial handoff scope.",
+      "resolution": "27 original review/checker, validation and manifest/base records retained byte-for-byte; all 42 outside-overlay files inventoried with explicit omissions; all 156 source payload files match frozen PR8. No complete-ZIP publication or historical patch-route replay claim."
+    },
+    {
+      "id": "premature-completion-wording",
+      "status": "resolved",
+      "concern": "Draft profile called readback and scope records completed before they were supplied.",
+      "resolution": "Final profile requires separate supplied records checked against actual final heads; this report supplies only local scope/head acknowledgment."
+    },
+    {
+      "id": "historical-finding-ledger-coverage",
+      "status": "resolved",
+      "concern": "Known earlier wrapper findings needed explicit ledger reconciliation.",
+      "resolution": "Final ledger records copied-input mutation repair, unexplained stdout incident and all four individually resolved round-seven findings; exact original evidence and retained consumers checked; locator corrected to validate_expected. No new arithmetic repair or historical verdict rewritten."
+    }
+  ],
+  "materialOpenObjectionsWithinReviewedScope": [],
+  "remainingObligations": [
+    "Public final-head/manifest readback and later received-review reconciliation remain separate.",
+    "The designated App must supply its own exact-revision check where required by live rulesets; this report grants no App authorization.",
+    "Inherited mathematical inputs, full authoritative-publication coverage, assembled-proof closure and manuscript incorporation remain at their stated open status.",
+    "Historical stdout-truncation cause remains unresolved; recorded checks remove the marker from success authority, not diagnose the cause.",
+    "Attribution overlap and future cost-neutral detector research remain open.",
+    "A later official release must perform all applicable source/PDF/artifact/current-record and authorized-mirror synchronization."
+  ],
+  "earlierReportsPreserved": true,
+  "newWholeProofAcceptance": false,
+  "designatedAppAuthorization": false,
+  "publicReadbackPerformedByThisReviewer": false,
+  "checks": [
+    "SCOPE_BINDING_CHECKS.json",
+    "FINAL_HEAD_CHECKS.json"
+  ],
+  "report": "REPORT.md"
+}

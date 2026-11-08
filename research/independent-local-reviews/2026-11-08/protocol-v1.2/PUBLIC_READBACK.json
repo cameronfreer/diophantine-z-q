@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "scope": "Authorized public fork blobs and upstream PR base/head readback. No private-mirror publication. No assertion of App acceptance.",
+  "records": [
+    {
+      "pr": 8,
+      "head": "ad7fc75610fb325313a1afd73b2bfbc4ba5a0d71",
+      "base": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/8",
+      "manifestSha256": "22219edd1b719298eafa4c4e52474d0d341170fbe14437b5b8e90919e4eb4178",
+      "publicBytesMatch": true,
+      "mergeStateStatus": "BLOCKED",
+      "checkNames": []
+    },
+    {
+      "pr": 9,
+      "head": "51111cc97d0f42d50338ae378268700c457497f9",
+      "base": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/9",
+      "manifestSha256": "22219edd1b719298eafa4c4e52474d0d341170fbe14437b5b8e90919e4eb4178",
+      "publicBytesMatch": true,
+      "mergeStateStatus": "BLOCKED",
+      "checkNames": []
+    },
+    {
+      "pr": 11,
+      "head": "e8654b2ca24a424cead6b62f3f790136a170d953",
+      "base": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/11",
+      "manifestSha256": "22219edd1b719298eafa4c4e52474d0d341170fbe14437b5b8e90919e4eb4178",
+      "publicBytesMatch": true,
+      "mergeStateStatus": "BLOCKED",
+      "checkNames": []
+    },
+    {
+      "pr": 12,
+      "head": "772fe96a0e65bee76db500d8ef3a7a6b5e884d1f",
+      "base": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/12",
+      "manifestSha256": "22219edd1b719298eafa4c4e52474d0d341170fbe14437b5b8e90919e4eb4178",
+      "publicBytesMatch": true,
+      "mergeStateStatus": "BLOCKED",
+      "checkNames": []
+    }
+  ]
+}
