@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "method": "Independent exact polynomial decoding over Q[t,q1,q12], with q12 free; actual normalized rows, zero branches, every outside row and raw cost checked; no author checker imported.",
+  "beforeSha256": "63381ce00aacbf2a1675a74e169003d00446db71ee42229d7a29825ab9925db7",
+  "afterSha256": "850099ea0a403718d39825c45f24dfabe5965656f1dd8363d4072d2a30522468",
+  "allOutsideRowsIdentical": true,
+  "allGuardsIdentical": true,
+  "allSharedSemanticAliasesIdentical": true,
+  "rawCoordinateSaving": 3,
+  "rawResidualSaving": 3,
+  "blocks": [
+    {
+      "block": 0,
+      "route": "old",
+      "checkedDefiningRows": 10,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    },
+    {
+      "block": 0,
+      "route": "new",
+      "checkedDefiningRows": 9,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    },
+    {
+      "block": 1,
+      "route": "old",
+      "checkedDefiningRows": 10,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    },
+    {
+      "block": 1,
+      "route": "new",
+      "checkedDefiningRows": 9,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    },
+    {
+      "block": 2,
+      "route": "old",
+      "checkedDefiningRows": 10,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    },
+    {
+      "block": 2,
+      "route": "new",
+      "checkedDefiningRows": 9,
+      "q12Constraint": "q1*delta^2*q12-(q1*delta)^24=0",
+      "zeroQ1AndZeroDeltaBranchesPreserved": true
+    }
+  ],
+  "scope": "Finite identities and raw coordinate counts; not global arithmetic proof."
+}

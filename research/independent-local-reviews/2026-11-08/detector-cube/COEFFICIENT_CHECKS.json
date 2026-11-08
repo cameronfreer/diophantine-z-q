@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "method": "Independent triangular square expansion over integers, exact full decimal-table parse and complete coefficient equality; no author checker imported.",
+  "results": [
+    {
+      "order": 45,
+      "coordinates": 380,
+      "residuals": 349,
+      "monomials": 26025,
+      "degree": 4,
+      "integerContent": 1,
+      "inputFourthPowerCoefficient": 1,
+      "everyCoordinateActive": true,
+      "inputFixed": true,
+      "maximumCoefficient": "28902*3^1420",
+      "maximumDigits": 682,
+      "maximumBits": 2266,
+      "tableSha256": "373c624d3b1293809e521ab8113052ff473f1b14ea1cde2facb361979515f6e5",
+      "baselineRawSha256": "5c01c1651cef342deca65803d4563d7e92f13d93a396c2c62fa77b7416ea31c7",
+      "candidateRawSha256": "49f2748054378ea831d278d4832a318a2ab6057ccfcdfaccc233ac933db75156",
+      "baselineEqualsPreviouslyReviewedRawSource": true
+    },
+    {
+      "order": 47,
+      "coordinates": 383,
+      "residuals": 352,
+      "monomials": 26043,
+      "degree": 4,
+      "integerContent": 1,
+      "inputFourthPowerCoefficient": 1,
+      "everyCoordinateActive": true,
+      "inputFixed": true,
+      "maximumCoefficient": "28902*3^1344",
+      "maximumDigits": 646,
+      "maximumBits": 2146,
+      "tableSha256": "8ac84ab634f1636110d9c33df9613612110b44b6e9a044469873b51ef0e91ebc",
+      "baselineRawSha256": "63381ce00aacbf2a1675a74e169003d00446db71ee42229d7a29825ab9925db7",
+      "candidateRawSha256": "850099ea0a403718d39825c45f24dfabe5965656f1dd8363d4072d2a30522468",
+      "baselineEqualsPreviouslyReviewedRawSource": true
+    }
+  ],
+  "scope": "Finite full expansion/count/height verification, not global arithmetic proof."
+}

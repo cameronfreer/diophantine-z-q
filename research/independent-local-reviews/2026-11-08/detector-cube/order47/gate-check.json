@@ -1,0 +1,2731 @@
+{
+  "schema": "brox-independent-check-v1",
+  "checkedAtUTC": "2026-11-08T16:44:47.072Z",
+  "status": "passed_exact_algebra_checks",
+  "scope": "Exact gate identities recognized below, certified row operations/eliminations, SOS expansion, fixed-S integrality/support/height. No proof of inherited arithmetic or source completeness is asserted.",
+  "inputSha256": "850099ea0a403718d39825c45f24dfabe5965656f1dd8363d4072d2a30522468",
+  "artifactHashes": {
+    "input": {
+      "file": "/tmp/quartic-cube-review/order47/raw-translated-ir.json",
+      "sha256": "850099ea0a403718d39825c45f24dfabe5965656f1dd8363d4072d2a30522468"
+    },
+    "compiled": {
+      "file": "/tmp/quartic-cube-review/order47/compiled/compiled-ir.json",
+      "sha256": "93e0fd67d3dc757f2fc2e42f0ef25ea767a96d8c4c946d1d419f37dace58b5ca"
+    },
+    "certificate": {
+      "file": "/tmp/quartic-cube-review/order47/compiled/reduction-certificate.json",
+      "sha256": "88a7311f864932985e492cede018b86ce4b7d55fa25025ea3cd17e5249d47c5b"
+    },
+    "coordinateMap": {
+      "file": "/tmp/quartic-cube-review/order47/compiled/coordinate-map.json",
+      "sha256": "56923806c287f00c5c449d017744005c2e989df7a314edc0b22a90ad01ebc439"
+    },
+    "quartic": {
+      "file": "/tmp/quartic-cube-review/order47/compiled/polynomial.json",
+      "sha256": "6d77657f1d46e99a96a5c0e86859f23e3ca13a9e5b436e0478d89a01665c7099"
+    }
+  },
+  "coordinateCount": 389,
+  "residualCount": 356,
+  "gateIdentities": {
+    "checked": 339,
+    "unverified": [],
+    "extensionOrder": "Every declared dependency precedes its output coordinate",
+    "domainObligations": [
+      {
+        "coordinateId": 79,
+        "domain": "joint_chart_equations_force_nonzero_fH"
+      },
+      {
+        "coordinateId": 80,
+        "domain": "joint_chart_equations_force_nonzero_fH"
+      },
+      {
+        "coordinateId": 81,
+        "domain": "joint_chart_equations_force_nonzero_s"
+      },
+      {
+        "coordinateId": 82,
+        "domain": "joint_chart_equations_force_nonzero_s"
+      },
+      {
+        "coordinateId": 83,
+        "domain": "joint_chart_equations_force_nonzero_s"
+      },
+      {
+        "coordinateId": 84,
+        "domain": "joint_chart_equations_force_nonzero_s"
+      },
+      {
+        "coordinateId": 85,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 86,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 89,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 90,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 91,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 92,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 95,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 96,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 97,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 98,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 101,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 102,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 103,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 104,
+        "domain": "totally_positive_xR_plus_D_fU"
+      },
+      {
+        "coordinateId": 107,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 108,
+        "domain": "zero_tau_contradicts_scaledK_equation"
+      },
+      {
+        "coordinateId": 119,
+        "domain": "nonzero_y_over_x"
+      },
+      {
+        "coordinateId": 120,
+        "domain": "nonzero_y_over_x"
+      },
+      {
+        "coordinateId": 125,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 126,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 137,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 138,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 149,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 150,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 161,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 162,
+        "domain": "nonzero_root_h_times_y_over_x"
+      },
+      {
+        "coordinateId": 163,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 164,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 165,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 166,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 167,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 168,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 169,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 170,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 171,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 172,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 173,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 174,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 175,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 176,
+        "domain": "nonzero_l_on_reciprocal_quartic_chart"
+      },
+      {
+        "coordinateId": 177,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 178,
+        "domain": "global_reciprocal_log_nonvanishing_Brox4353_4360"
+      },
+      {
+        "coordinateId": 244,
+        "domain": "positive_scale_and_guard_make_numerator_nonzero"
+      },
+      {
+        "coordinateId": 251,
+        "domain": "positive_inverse_R"
+      },
+      {
+        "coordinateId": 254,
+        "domain": "positive_order_one_weight"
+      },
+      {
+        "coordinateId": 276,
+        "domain": "positive_lambda_and_totally_positive_factor_product"
+      },
+      {
+        "coordinateId": 277,
+        "domain": "positive_factor_product_forces_nonzero_norm"
+      },
+      {
+        "coordinateId": 289,
+        "domain": "positive_scale_and_guard_make_numerator_nonzero"
+      },
+      {
+        "coordinateId": 296,
+        "domain": "positive_inverse_R"
+      },
+      {
+        "coordinateId": 299,
+        "domain": "positive_order_one_weight"
+      },
+      {
+        "coordinateId": 321,
+        "domain": "positive_lambda_and_totally_positive_factor_product"
+      },
+      {
+        "coordinateId": 322,
+        "domain": "positive_factor_product_forces_nonzero_norm"
+      },
+      {
+        "coordinateId": 334,
+        "domain": "positive_scale_and_guard_make_numerator_nonzero"
+      },
+      {
+        "coordinateId": 341,
+        "domain": "positive_inverse_R"
+      },
+      {
+        "coordinateId": 344,
+        "domain": "positive_order_one_weight"
+      },
+      {
+        "coordinateId": 366,
+        "domain": "positive_lambda_and_totally_positive_factor_product"
+      },
+      {
+        "coordinateId": 367,
+        "domain": "positive_factor_product_forces_nonzero_norm"
+      },
+      {
+        "coordinateId": 375,
+        "domain": "positive_scalar_contact_product"
+      },
+      {
+        "coordinateId": 376,
+        "domain": "positive_scalar_contact_product"
+      },
+      {
+        "coordinateId": 377,
+        "domain": "positive_scalar_contact_product"
+      },
+      {
+        "coordinateId": 378,
+        "domain": "totally_positive_xP_xU_plus_D"
+      },
+      {
+        "coordinateId": 379,
+        "domain": "totally_positive_xP_xU_plus_D"
+      },
+      {
+        "coordinateId": 380,
+        "domain": "nonzero_root_square_abscissa"
+      },
+      {
+        "coordinateId": 381,
+        "domain": "nonzero_root_square_abscissa"
+      },
+      {
+        "coordinateId": 384,
+        "domain": "positive_scalar_contact_product"
+      },
+      {
+        "coordinateId": 392,
+        "domain": "positive_scalar_contact_product"
+      }
+    ],
+    "domainStatus": "Listed field/noninverse quotient domain claims remain source proof obligations; algebraic identities alone do not discharge them."
+  },
+  "transformation": {
+    "operations": 330,
+    "trace": [
+      {
+        "index": 0,
+        "kind": "eliminate",
+        "coordinateCount": 399,
+        "residualCount": 366
+      },
+      {
+        "index": 1,
+        "kind": "eliminate",
+        "coordinateCount": 398,
+        "residualCount": 365
+      },
+      {
+        "index": 2,
+        "kind": "eliminate",
+        "coordinateCount": 397,
+        "residualCount": 364
+      },
+      {
+        "index": 3,
+        "kind": "eliminate",
+        "coordinateCount": 396,
+        "residualCount": 363
+      },
+      {
+        "index": 4,
+        "kind": "eliminate",
+        "coordinateCount": 395,
+        "residualCount": 362
+      },
+      {
+        "index": 5,
+        "kind": "eliminate",
+        "coordinateCount": 394,
+        "residualCount": 361
+      },
+      {
+        "index": 6,
+        "kind": "eliminate",
+        "coordinateCount": 393,
+        "residualCount": 360
+      },
+      {
+        "index": 7,
+        "kind": "eliminate",
+        "coordinateCount": 392,
+        "residualCount": 359
+      },
+      {
+        "index": 8,
+        "kind": "eliminate",
+        "coordinateCount": 391,
+        "residualCount": 358
+      },
+      {
+        "index": 9,
+        "kind": "eliminate",
+        "coordinateCount": 390,
+        "residualCount": 357
+      },
+      {
+        "index": 10,
+        "kind": "eliminate",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 11,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 12,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 13,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 14,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 15,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 16,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 17,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 18,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 19,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 20,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 21,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 22,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 23,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 24,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 25,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 26,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 27,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 28,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 29,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 30,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 31,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 32,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 33,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 34,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 35,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 36,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 37,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 38,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 39,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 40,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 41,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 42,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 43,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 44,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 45,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 46,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 47,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 48,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 49,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 50,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 51,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 52,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 53,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 54,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 55,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 56,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 57,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 58,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 59,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 60,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 61,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 62,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 63,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 64,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 65,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 66,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 67,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 68,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 69,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 70,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 71,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 72,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 73,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 74,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 75,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 76,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 77,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 78,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 79,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 80,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 81,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 82,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 83,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 84,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 85,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 86,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 87,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 88,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 89,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 90,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 91,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 92,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 93,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 94,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 95,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 96,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 97,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 98,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 99,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 100,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 101,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 102,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 103,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 104,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 105,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 106,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 107,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 108,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 109,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 110,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 111,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 112,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 113,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 114,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 115,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 116,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 117,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 118,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 119,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 120,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 121,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 122,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 123,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 124,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 125,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 126,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 127,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 128,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 129,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 130,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 131,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 132,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 133,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 134,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 135,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 136,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 137,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 138,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 139,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 140,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 141,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 142,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 143,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 144,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 145,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 146,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 147,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 148,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 149,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 150,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 151,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 152,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 153,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 154,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 155,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 156,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 157,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 158,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 159,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 160,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 161,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 162,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 163,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 164,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 165,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 166,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 167,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 168,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 169,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 170,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 171,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 172,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 173,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 174,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 175,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 176,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 177,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 178,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 179,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 180,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 181,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 182,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 183,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 184,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 185,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 186,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 187,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 188,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 189,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 190,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 191,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 192,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 193,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 194,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 195,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 196,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 197,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 198,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 199,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 200,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 201,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 202,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 203,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 204,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 205,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 206,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 207,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 208,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 209,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 210,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 211,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 212,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 213,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 214,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 215,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 216,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 217,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 218,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 219,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 220,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 221,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 222,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 223,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 224,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 225,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 226,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 227,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 228,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 229,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 230,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 231,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 232,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 233,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 234,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 235,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 236,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 237,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 238,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 239,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 240,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 241,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 242,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 243,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 244,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 245,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 246,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 247,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 248,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 249,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 250,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 251,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 252,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 253,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 254,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 255,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 256,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 257,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 258,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 259,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 260,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 261,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 262,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 263,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 264,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 265,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 266,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 267,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 268,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 269,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 270,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 271,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 272,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 273,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 274,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 275,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 276,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 277,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 278,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 279,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 280,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 281,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 282,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 283,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 284,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 285,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 286,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 287,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 288,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 289,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 290,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 291,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 292,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 293,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 294,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 295,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 296,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 297,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 298,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 299,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 300,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 301,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 302,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 303,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 304,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 305,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 306,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 307,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 308,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 309,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 310,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 311,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 312,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 313,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 314,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 315,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 316,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 317,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 318,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 319,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 320,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 321,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 322,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 323,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 324,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 325,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 326,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 327,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 328,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      },
+      {
+        "index": 329,
+        "kind": "normalize",
+        "coordinateCount": 389,
+        "residualCount": 356
+      }
+    ]
+  },
+  "quarticTableCompared": true,
+  "statistics": {
+    "degree": 4,
+    "formalTerms": 26111,
+    "monomials": 26107,
+    "activeCoordinateCount": 387,
+    "activeCoordinates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386
+    ],
+    "specializedSupportCertified": true,
+    "integerCoefficients": true,
+    "primitiveContent": "1",
+    "primitiveContentStatus": "exact via S-free coefficient bound and modular evaluations",
+    "maximumAbsoluteCoefficient": {
+      "monomial": [
+        226,
+        226
+      ],
+      "coefficient": [
+        {
+          "sPower": 0,
+          "coefficient": "1/1"
+        },
+        {
+          "sPower": 2,
+          "coefficient": "40532396646334464/1"
+        }
+      ],
+      "encoding": "Evaluate this rational polynomial at S=3^2016; exact maximum certified by leading-term dominance"
+    },
+    "heightBound": null,
+    "signProofMethod": "All nonzero formal coefficient polynomials and maximum comparisons passed S-dominance checks"
+  }
+}

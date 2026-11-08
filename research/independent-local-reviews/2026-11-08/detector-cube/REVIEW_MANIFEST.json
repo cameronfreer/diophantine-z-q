@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-08",
+  "encoding": "Exact bytes; authored UTF-8 LF text/JSON with final newline",
+  "coverage": "Independent report, findings, exact source bindings, independent checker sources/results, full-replay receipts and check reports. Large generated trees/tables are reproducible outputs at the recorded hashes, not included in this review archive selection.",
+  "files": {
+    "REPORT.md": "5d930a53991a971b69d81aa845d2d4713fda23c711561f66106c2cd288a60c31",
+    "FINDINGS.json": "50e0458be96ffbeebf9097a7703fa68a76483818c20cbda01d4b395332e06475",
+    "SOURCE_HASHES.json": "fdcf8941ffbd20849a15c24d3c7818f79ed4714c2553a02a24c3b755ef851f2c",
+    "independent_check.py": "348990965b2b1696cede933d9e99dc3382b89217d9678114add503f9b2878e4e",
+    "check_coefficients.py": "a901a7112b6988b9bb08f2bbf0ef0981232413d2ab3bea243a0b79cff39cfbe4",
+    "ALGEBRA45.json": "5372433129a82bce91f3fcaae79953c033d1c01a4b34becaa539e5adedf0f4d7",
+    "ALGEBRA47.json": "77324323a58c40fd8231200102c663ff26d46e38a6192b1d64fcb21e2e6d3dbd",
+    "COEFFICIENT_CHECKS.json": "2b529925bf7c879f543534dfc93d70a1fcdf157220da2cd21befb416aca87dc7",
+    "REPLAY_RECORD.json": "c83e79603f06eff808e244404183ef6fbb1d3994af73e83c5068c48ac397b638",
+    "AUDIT_SELF_TEST.json": "51b0f3a56aea06ceb991642e5513859294da5b8f8f09f9e516845d980e275111",
+    "order45/MEASURED.json": "ae197418a2a310ee8d6638777549e803052c17667772491dbbec0ab30b98ffcb",
+    "order45/cube-check.json": "9c15f04dde5a24ca524b690fc71c4d3a57b34d4ab57cd07c3dee467ca4824dac",
+    "order45/gate-check.json": "3d69623d06b9f05f85e3c978d04def5e11aa07b3ac214664bbe4b3c7987692ed",
+    "order45/transport-check.json": "411c2acf06fae6f5056717eb0d4de139515a5ab6ad998ef7513cc88f18496053",
+    "order45/diagonal-check.json": "e2611caf91c5926d0e2469c3b24e913430d1c7e12579f0020cd5e81088d58fdf",
+    "order45/balanced/summary.json": "e86837e97b243386c8ab596d0a6e1911ef8d2eb5dd36354c6742734cde09c191",
+    "order47/MEASURED.json": "badd39a63d6f5884e2d30b00f36c30509b6c737f37e83d725c83c0e7edd00198",
+    "order47/cube-check.json": "1fc20ca6508e67b4714807a6e0b0f38e50842dc0a006793484e854e692002db0",
+    "order47/gate-check.json": "c23f0af9ad52eaef9df9f8961b2123600563ddd42dc57607a3a515f6e38b5e95",
+    "order47/transport-check.json": "ae2240822d8323597dda9eda0dd5d6efd85e04f639b8b6ab9c7159bd4ea91a06",
+    "order47/diagonal-check.json": "ceb582aaf105613170d9319874defd49a7605b4d3a6153d1598e321f606c4e49",
+    "order47/balanced/summary.json": "91520d3ca204b03a3cf90c94b392ca5b89f9a6968a88d2835b1539d4efc9f061"
+  }
+}
