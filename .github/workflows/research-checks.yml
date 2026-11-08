@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   quartic389:
-    name: Conditional 389-variable research replay
+    name: Conditional 389/385-variable research replay
     runs-on: ubuntu-24.04
     timeout-minutes: 12
     steps:
@@ -34,10 +34,14 @@ jobs:
           python -B research/conditional-quartic-reduction/review_tools/check_pr_reproduction_manifest.py
           research/conditional-quartic-reduction --reference build/quartic-389
           --report build/quartic-389/import-review.json
+      - name: Rebuild and check the four factored poles
+        run: >-
+          python -B research/factored-pole-reduction/reproduce.py
+          --baseline build/quartic-389 --output build/quartic-385
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: conditional-quartic-389-receipts
+          name: conditional-quartic-389-385-receipts
           path: |
             build/quartic-389/reproduction-receipt.json
             build/quartic-389/pipeline-progress.json
@@ -46,6 +50,12 @@ jobs:
             build/quartic-389/import-review.json
             build/quartic-389/audit/*check.json
             build/quartic-389/construction/*check.json
+            build/quartic-385/reproduction-receipt.json
+            build/quartic-385/reproduce.log
+            build/quartic-385/parent-check.json
+            build/quartic-385/candidate385/*check.json
+            build/quartic-385/candidate385/balanced/summary.json
+            build/quartic-385/candidate385/quartic-385-balanced-decimal.txt
   quartic394:
     name: Version 13 source and quartic replay (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
