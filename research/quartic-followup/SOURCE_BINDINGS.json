@@ -1,0 +1,151 @@
+{
+  "format": "quartic-followup-sources-v1",
+  "parentCommit": "6fd131e7ca150d7a023bcb6ac4f1971912705fab",
+  "independentAcceptance": false,
+  "files": [
+    {
+      "path": "docs/manuscript-revisions/version13/addition.tex",
+      "sha256": "91b278b3ca1684df93e32883d8046a2accda970efc1ed9159b095183092d5a09"
+    },
+    {
+      "path": "manuscripts/quartic_v13.tex",
+      "sha256": "9db71bbfcefb37db56eabcf40a5f9dd85de9ed58294635da3dbf6d4f5caa8fcd"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/SOURCE_MANIFEST.json",
+      "sha256": "268694a99ae9e73f99c3847270994d51b7b9861aa9e521a622c583bed95076c2"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/audit/check_diagonal_scaling.py",
+      "sha256": "506da8992d048bc16f5df0a1cde9226201dff9d8169d2d0bbc92b12d10cd4f64"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/balance_coefficients.py",
+      "sha256": "9e9a7ebcb3e4be58862381c2b51f85352ba4b688495912da2585b1ad37973a63"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/builder.cjs",
+      "sha256": "b4bf6af38a7620a5b6a572039da4fcb22cd6f4ce006c439d89588c1259231f3b"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/affine_search.py",
+      "sha256": "d122f8fa2628d57925397025e54463a1ea9bbf92440ff5e08779aa7f77be4682"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/checker.cjs",
+      "sha256": "dc0e394b2fa758dfd9af2d6ee56f18907a5acdd9d659f9883acdffe1ec173de4"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/compile_ir.py",
+      "sha256": "45d5df9546e1f39b61d064d4204a0b41469b5a18134281b7e439f5faab62f28a"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/modulo_search.py",
+      "sha256": "63380ce9300bf8c97bda58beb62a7ae7536dd1cde61a45a00cdff772c8968d57"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/run_pipeline.py",
+      "sha256": "591def4c716d3bff456bf83ef3511840377bea02bf4e94f52017914b013c5a8c"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/search.py",
+      "sha256": "982959296b369b98ed370f73b460e906966c282654acd27e0d5b913c50082a03"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/verify.py",
+      "sha256": "13c4190c50867573d470d7f4efb4e25dacf49872c3f0c9c23acf8404da840a48"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/construction/tools/verify_elimination.py",
+      "sha256": "ea67ec8575c8b4fbea0cd5ccffc60165263537f53d6b12febc99d7d4f974785e"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/arithmetic_round7.tex",
+      "sha256": "14f548346d7630bf2d440fbc33a10bda10bb6cc7604692d59bcb1c821a5bf5ff"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/arithmetic_round8.tex",
+      "sha256": "826523050c2f0d315561ae064124b420862ff09eeafaa63437e0339ce7c22f7b"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/detector_round7.tex",
+      "sha256": "ed01c9416d3b4daf02a26958642194230c0186a896f17817bfe30c8a16d481d3"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/detector_round8.tex",
+      "sha256": "150b79708b8088d1c75641571277eecf452fe72b7c729cc4fe783e4da76b83bb"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/geometry_round7.tex",
+      "sha256": "0402ccf6c3e193c685d01e0ff6e46449001ac074a1bf4501419d6fb1fea88035"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/prior/round3/arithmetic_proof.tex",
+      "sha256": "66cdc4ef3e2f0e5cfde8b50e3ac360dd27d2ac17826ce23fd4ec688ac7d438d4"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/prior/round4/geometry_round4.tex",
+      "sha256": "f51c4c6801b205475ac467aafaa61faec9e0da4a978275b3f965701b0a50c141"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/prior/round4/scalar_streamlining.tex",
+      "sha256": "ba3707caa4b29e58180cd08abbc6c176a38dd2d7bb15292ed953f1df3120f9a8"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/proofs/prior/round5/geometry_round5.tex",
+      "sha256": "3d5f0fff2fc45bd2b7504c933a8583367555d10e78a18b9885c2d01a151261bb"
+    },
+    {
+      "path": "research/conditional-quartic-reduction/reproduce.py",
+      "sha256": "a660293cc6fa97a55d8d3635645f666fd1c6b52d96276ec768b4a3faedecc3ae"
+    },
+    {
+      "path": "research/factored-pole-reduction/PROOF.md",
+      "sha256": "364309a61432b4de3615852175cab0faa7a3aeb9d5d251f4da521454277198d4"
+    },
+    {
+      "path": "research/factored-pole-reduction/build_transport.py",
+      "sha256": "1e58266e056db9b3b2a14f8c78fb2c0a1df41196e7745818fb077dc98b029156"
+    },
+    {
+      "path": "research/factored-pole-reduction/check_transport.py",
+      "sha256": "4330e24df146ebdd8f525d52d689bd94c39327fe95ad1a6cf1f3e4640562078b"
+    },
+    {
+      "path": "research/quartic-followup/APPLICATION_CONTRACT.json",
+      "sha256": "7f1a789bb1ad06ded5020fa267a1e03ac3a6b0151c8146c5f0798226c8aeeba7"
+    },
+    {
+      "path": "research/quartic-followup/LOGARITHM.md",
+      "sha256": "2e1791856d10d6a0b3586b3452539d5b8a0a8dd4e7665597529e334a0e0c86c0"
+    },
+    {
+      "path": "research/quartic-followup/README.md",
+      "sha256": "005d48782add33055e2dfc56ea68d3cc121e227240ae185327629a0415543e95"
+    },
+    {
+      "path": "research/quartic-followup/SCALAR_ARGUMENT.md",
+      "sha256": "eef1881d0d281c66f4a64b4f244e115335424f804125a86e2f65ba49a9873cd6"
+    },
+    {
+      "path": "research/quartic-followup/chart_patch.py",
+      "sha256": "b7a08a6bf02f6ce063a72c9ee164bb0f163cbf9db3eb43c2ca48206c98a825ea"
+    },
+    {
+      "path": "research/quartic-followup/check_local_claims.py",
+      "sha256": "7043054920b1d53e8feaea4facc794bc9b441c6c7fcb284effb7de30354fedaa"
+    },
+    {
+      "path": "research/quartic-followup/log_patch.py",
+      "sha256": "0dfb728ea44ebd20e81680988f1c70d15439dedee353b601549d224506f69b32"
+    },
+    {
+      "path": "research/quartic-followup/reproduce.py",
+      "sha256": "c92ca78e6e5a6cf39b5d1d7857948efeb991384d3e02d90557d2fdd2e66be51f"
+    },
+    {
+      "path": "research/quartic-followup/scalar_patch.py",
+      "sha256": "b1bf6a3828cb6c5b06a218c424779fbd535a65f0306c2e46eb853e7961f19d02"
+    }
+  ]
+}

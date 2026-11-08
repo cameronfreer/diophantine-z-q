@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "independentAcceptance": false,
+  "scope": "Finite circuit, transport, coefficient and local-algebra checks; changed arithmetic arguments remain author proposals.",
+  "sourceBindingsSha256": "64c60bacf4569c544d8de24355cdf0b7810d865e2dad065f7ee4e14f84d71642",
+  "scalarSourceDelta": {
+    "removedCoordinates": [],
+    "addedRows": [],
+    "deletedRows": [
+      "scalar.preparationConic"
+    ],
+    "changedRows": [
+      "scalar.Bh.definition",
+      "scalar.preparationT.definition",
+      "scalar.secondConic"
+    ],
+    "unusedRawCoordinates": [
+      "scalar.preparationU",
+      "scalar.preparationV"
+    ]
+  },
+  "experiments": [
+    {
+      "experiment": "baseline",
+      "beforeFactoring": {
+        "coordinates": 389,
+        "residuals": 357
+      },
+      "coordinateBlocksBeforeFactoring": {
+        "base": 61,
+        "point_modules": 18,
+        "five_differences": 30,
+        "parameters_and_logarithms": 60,
+        "direct_tests_and_shared_symmetric_coefficients": 53,
+        "fixed_height_scales": 8,
+        "detector_0": 41,
+        "detector_1": 45,
+        "detector_2": 45,
+        "scalar_block": 27,
+        "anchor": 1
+      },
+      "compiledIrSha256": "1e9071816ccb40d562545be08f21ccac76813a64796173d155d0d3ae7dbebb50",
+      "afterFactoring": {
+        "coordinates": 385,
+        "residuals": 353,
+        "degree": 4,
+        "monomials": 26235,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 757,
+        "maximumCoefficientBits": 2513,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2364,
+        "cExponent": 394,
+        "tableSha256": "47da004230ff7a20c7a0824738422eb9c29c4a6e6de92455e3d956e979161ecf",
+        "tableBytes": 1048785,
+        "certificateSha256": "091a90bfb52ad7090796d1f910607bf2ad15a3b070961c6c0a8aac0b0c8c12f0"
+      },
+      "freeOmission": null,
+      "gateReportSha256": "28fbb41691c38957cae33e4bab3e9c0206cb4d79a30978cc2b119eea8c91c959",
+      "transportReportSha256": "0bcfa9a4de1786a65184e70615dfbaa1c51938e5334db2d53e24b6bdc86996ba",
+      "coefficientReportSha256": "6380c9950e30649272570127e375529235c566c495edae6f0d52a7f6936ca17b"
+    },
+    {
+      "experiment": "biquadratic-chart",
+      "beforeFactoring": {
+        "coordinates": 389,
+        "residuals": 357
+      },
+      "coordinateBlocksBeforeFactoring": {
+        "base": 61,
+        "point_modules": 10,
+        "five_differences": 46,
+        "parameters_and_logarithms": 52,
+        "direct_tests_and_shared_symmetric_coefficients": 53,
+        "fixed_height_scales": 8,
+        "detector_0": 41,
+        "detector_1": 45,
+        "detector_2": 45,
+        "scalar_block": 27,
+        "anchor": 1
+      },
+      "compiledIrSha256": "2afdec5c85751b91c6845739a4de0a43d831b743a45061548e7cf8b234f4412f",
+      "afterFactoring": {
+        "coordinates": 385,
+        "residuals": 353,
+        "degree": 4,
+        "monomials": 26041,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 757,
+        "maximumCoefficientBits": 2513,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2364,
+        "cExponent": 394,
+        "tableSha256": "02ed4b0d6c8051fcaa37c21388b9032d7cd5a6a3a180a657bb66c4944e4bebd0",
+        "tableBytes": 1027167,
+        "certificateSha256": "175cba1261a684c8a5cabeaa22e264d537c2692c2c55bf9f68219f9cdbf8de97"
+      },
+      "freeOmission": null,
+      "gateReportSha256": "37abd20ee8bc12ba4fe2fdad770ba55dec6bb89a444232cc91748ac381a28aaa",
+      "transportReportSha256": "572f05a135f254e7e697399b8560a10a626ffb3aad108f2c7bb9186c34780cf1",
+      "coefficientReportSha256": "a93a1eb8d2ea8b805cc978a85d2976622884e2e8c048db8901f237dafacdcbf9"
+    },
+    {
+      "experiment": "rational-log",
+      "beforeFactoring": {
+        "coordinates": 397,
+        "residuals": 365
+      },
+      "coordinateBlocksBeforeFactoring": {
+        "base": 61,
+        "point_modules": 18,
+        "five_differences": 30,
+        "parameters_and_logarithms": 68,
+        "direct_tests_and_shared_symmetric_coefficients": 53,
+        "fixed_height_scales": 8,
+        "detector_0": 41,
+        "detector_1": 45,
+        "detector_2": 45,
+        "scalar_block": 27,
+        "anchor": 1
+      },
+      "compiledIrSha256": "a18f17a8cd0eccceea0682e1eec96d3d221b9fd2d81bfca6c5bff17979865e9d",
+      "afterFactoring": {
+        "coordinates": 393,
+        "residuals": 361,
+        "degree": 4,
+        "monomials": 26209,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 757,
+        "maximumCoefficientBits": 2513,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2364,
+        "cExponent": 394,
+        "tableSha256": "5aa5b9f0d9be9bc0afcb1399b730fae80b6557c024d43c5014b48e0429aa0114",
+        "tableBytes": 924937,
+        "certificateSha256": "1a13df353838a1ad7c856b567fbf84a8fb077eca02410fc150312346fcb290db"
+      },
+      "freeOmission": null,
+      "gateReportSha256": "a791e2cb9af5456761b8ca7fb2993bd37635f1c680a4a07df5999228c5b5787e",
+      "transportReportSha256": "df3e3f8515de96e040c8e4292975d0e31f885adebe9d8d336227151caea15ee5",
+      "coefficientReportSha256": "4fbbf8281aeb01fc36a736735fede361a5ca0f5c04bb54044925a1311840f9e3"
+    },
+    {
+      "experiment": "scalar-zero",
+      "beforeFactoring": {
+        "coordinates": 387,
+        "residuals": 356
+      },
+      "coordinateBlocksBeforeFactoring": {
+        "base": 59,
+        "point_modules": 18,
+        "five_differences": 30,
+        "parameters_and_logarithms": 60,
+        "direct_tests_and_shared_symmetric_coefficients": 53,
+        "fixed_height_scales": 8,
+        "detector_0": 41,
+        "detector_1": 45,
+        "detector_2": 45,
+        "scalar_block": 27,
+        "anchor": 1
+      },
+      "compiledIrSha256": "8dfb13f34ac77b731113e6cbd0555f39e82d1cf245601cc9d3a70b4164b93124",
+      "afterFactoring": {
+        "coordinates": 383,
+        "residuals": 352,
+        "degree": 4,
+        "monomials": 26045,
+        "integerContent": 1,
+        "inputFourthPowerCoefficient": "1",
+        "maximumCoefficientDigits": 757,
+        "maximumCoefficientBits": 2513,
+        "scaledCoordinates": 13,
+        "ternaryScaledCoordinates": 12,
+        "dyadicScaledCoordinates": 2,
+        "anchorExponent": 2364,
+        "cExponent": 394,
+        "tableSha256": "d18ae3cf281081e9322969126864a8843f849f2c469e3f7c3b221ed3742166a4",
+        "tableBytes": 1035249,
+        "certificateSha256": "921d6269fcbb91146d0451d3f4268cde5dc35ddbbc74d05bc0ec15ef5b136ce9"
+      },
+      "freeOmission": {
+        "sourceSha256": "384a1ac431fce6bda84fad03581ad99aec5c74501b5b2c2d55129a544d2cffb2",
+        "activeIrSha256": "689c5765300a87e46c572ba458972066ee0d5b775383ca4febc52355ac5db68e",
+        "coordinateMapSha256": "bd8b91a929f07c09b1bcb9d5a289bdfc977ca4ff0f4ab7b34269684185093dcf",
+        "omittedCoordinates": [
+          {
+            "id": 52,
+            "name": "scalar.preparationU",
+            "kind": "base",
+            "protected": false,
+            "block": "base",
+            "sourceLines": [
+              2354,
+              2487
+            ]
+          },
+          {
+            "id": 53,
+            "name": "scalar.preparationV",
+            "kind": "base",
+            "protected": false,
+            "block": "base",
+            "sourceLines": [
+              2354,
+              2487
+            ]
+          }
+        ],
+        "allResidualsUnchanged": true,
+        "proof": "These two unprotected base slots occur in no residual. Forget them; the inverse extension assigns zero."
+      },
+      "gateReportSha256": "8ecd21bf326127cb9c875a0176e3d59b9301b3a3e6608e60e3f1ff531dcc32c4",
+      "transportReportSha256": "cc7f216fd7e25ccf7e3fa764f63156bbe7b8c0010116d565b8d13b3e276669ee",
+      "coefficientReportSha256": "631a870248a73b6040d8044d8a3736bb87d24e0cc2a6dea088f632877bb8964d"
+    }
+  ]
+}

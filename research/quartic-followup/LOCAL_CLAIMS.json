@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "independentAcceptance": false,
+  "rationalLog": {
+    "Q": [
+      "1",
+      "-68/29",
+      "11358/5945",
+      "-137172/219965",
+      "14421/219965"
+    ],
+    "N": [
+      "1",
+      "-398/145",
+      "48424/17835",
+      "-16398986/14297725",
+      "8855199/48612265",
+      "-131072/29167359",
+      "-32768/243061325",
+      "0",
+      "114688/105731676375"
+    ],
+    "zeroErrorCoefficients": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "firstError": "-21479424/74850978095075",
+    "QBernstein": [
+      "1",
+      "12/29",
+      "868/5945",
+      "1792/43993",
+      "336/43993"
+    ],
+    "NBernstein": [
+      "1",
+      "381/580",
+      "102563/249690",
+      "24131558/100084075",
+      "442616217/3402858550",
+      "84773651/1361143420",
+      "3248501/130879175",
+      "1729863/243061325",
+      "29981696/35243892125"
+    ],
+    "errorDenominatorFactorization": {
+      "5": 2,
+      "7": 1,
+      "13": 1,
+      "17": 1,
+      "29": 2,
+      "37": 2,
+      "41": 2
+    },
+    "relativeOrderAtLeast": 45
+  },
+  "scalar": {
+    "rhoMod32": 4,
+    "rhoMod243": 81,
+    "rhoMod17": 13,
+    "strictProxyValuationMultiple": "217/8",
+    "scalarOrder": 28
+  },
+  "scope": "Exact finite identities, Bernstein positivity and integer-polynomial congruences. Tail and simultaneous-completeness arguments are written separately."
+}
