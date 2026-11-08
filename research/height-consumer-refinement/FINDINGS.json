@@ -61,6 +61,16 @@
         "HANDOFF.md",
         "docs/reviews/quartic-stack-2026-11-08/FINDINGS.json"
       ]
+    },
+    {
+      "id": "private-anchor-gate-reevaluation",
+      "history": "Non-author review asked for explicit tracking of the S-dependent physical-anchor gate when reusing the old root/H choices.",
+      "packet": "Proof and contract now explicitly reevaluate that private gate and translate the new conic witnesses at new S; computational source is unchanged. Final reviewer acknowledgment pending.",
+      "currentManuscript": "pending",
+      "evidence": [
+        "PROOF.md",
+        "APPLICATION_CONTRACT.json"
+      ]
     }
   ]
 }

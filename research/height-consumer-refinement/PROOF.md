@@ -116,9 +116,12 @@ Keep their actual shared H, root points, real neighborhoods and finite
 progressions, including the preparation-zero requirements and, for order
 47, the precise identity branches and depth construction in
 `detector-cube-reuse/references/precision51_PROOF.md`. Every such old tuple
-satisfies the weaker new point/input anchor condition. The equivalence
-resupplies the three new conic witnesses. These witnesses are private to
-the anchor; no downstream construction consumes them. There is no claim
+satisfies the weaker new point/input anchor condition. Reevaluate the
+private `anchor.physicalA` gate, namely the packed norm expression, at the
+new S0. The equivalence supplies three conic witnesses for that new value;
+apply the same affine witness translation with the new S0. These gate and
+witness values are private to the anchor; no other construction consumes
+them. There is no claim
 of a bijection between conic witness tuples or between old and new allowed
 scalar indices. Completeness therefore uses the same simultaneous choices,
 not a limit point or a separately chosen H. Soundness on the larger new

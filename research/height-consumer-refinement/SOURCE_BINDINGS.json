@@ -217,7 +217,7 @@
     },
     {
       "path": "research/height-consumer-refinement/APPLICATION_CONTRACT.json",
-      "sha256": "9457c8e2683c8667bc0fc450d85b3405052d4fec081ff2e827788357ffd5a57a"
+      "sha256": "ef4bae3f51159d4f83ebf7db8e078153575279c39e173fd13894e9ca96f48857"
     },
     {
       "path": "research/height-consumer-refinement/EXPECTED.json",
@@ -225,7 +225,7 @@
     },
     {
       "path": "research/height-consumer-refinement/FINDINGS.json",
-      "sha256": "120e7e8690298eb8496a49225b02fd5dfb1ee0ae529ad597cefdea706dd5c8a0"
+      "sha256": "8f264fb8f76d210c52925598e869c5d53b39d8a34fc475982e8e32567e50f5cc"
     },
     {
       "path": "research/height-consumer-refinement/HANDOFF.md",
@@ -233,7 +233,7 @@
     },
     {
       "path": "research/height-consumer-refinement/PROOF.md",
-      "sha256": "17af70c95847f3d00139912e4387658c620e55521973634fa688eae74bb3342f"
+      "sha256": "5a4ff818479f28dfb988526cbcac89b9f6fdb264fe7e9f999123fe0547d45029"
     },
     {
       "path": "research/height-consumer-refinement/README.md",

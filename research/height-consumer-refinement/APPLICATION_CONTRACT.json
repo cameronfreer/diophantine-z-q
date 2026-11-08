@@ -8,7 +8,7 @@
   "parentCommit": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
   "proof": {
     "path": "research/height-consumer-refinement/PROOF.md",
-    "sha256": "17af70c95847f3d00139912e4387658c620e55521973634fa688eae74bb3342f"
+    "sha256": "5a4ff818479f28dfb988526cbcac89b9f6fdb264fe7e9f999123fe0547d45029"
   },
   "sources": [
     {
@@ -140,7 +140,7 @@
       "id": "transition_maps",
       "requiredInput": "Projective scaling and squared-coordinate heights with normalized absolute conventions; anchor witness existence.",
       "constructedInput": "Scale by nonzero lambda, square [1:C0:U], then use C=(1-rho)C0+rho U.",
-      "justification": "Product formula and placewise maximum prove the comparison; finite coefficients integral and real operator product exactly7. Old completeness objects satisfy the weaker anchor; resupply only private conic witnesses.",
+      "justification": "Product formula and placewise maximum prove the comparison; finite coefficients integral and real operator product exactly7. Old completeness objects satisfy the weaker anchor; reevaluate the private physical-anchor gate at new S, resupply the conic witnesses and translate them with the new S.",
       "consumer": "PROOF.md: Projective transfer; The anchor domain",
       "sourceReferences": [
         "height",
@@ -209,7 +209,7 @@
       "id": "local_conditions",
       "requiredInput": "Original pole, scalar and simultaneous real/finite hypotheses, including small primes.",
       "constructedInput": "Keep all old roots, actual H, finite congruences, real neighborhoods and old stronger anchor divisibility.",
-      "justification": "The new divisibility is weaker; only private anchor witnesses change. No modulus, scale, order of choices or exceptional set is altered.",
+      "justification": "The new divisibility is weaker; only private anchor gate and witness values change. No modulus, scale, order of choices or exceptional set is altered.",
       "consumer": "PROOF.md: The anchor domain and both completeness constructions",
       "sourceReferences": [
         "height",
