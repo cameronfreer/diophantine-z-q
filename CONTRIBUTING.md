@@ -2,6 +2,8 @@
 
 Mathematical corrections, dependency checks, reproducibility reports, and improvements to the formalization are useful contributions. Please make each report specific enough that another reader can reproduce the issue.
 
+For proposed changes, follow the [research review guide](docs/research-review/README.md) and the [complete mathematical research review protocol](docs/research-review/PROTOCOL.md). They specify PR evidence, non-author review, treatment of every audit objection, and closure on the exact final revision. For a research release, identify the project release profile and include the cumulative research handoff and synchronized release records. For a non-release change, explain which release duties do not apply and why. The guide links the live rulesets for current enforcement. Existing CI alone does not establish full protocol completion.
+
 ## Mathematical reports
 
 [Open an issue](https://github.com/elliotglazer/diophantine-z-q/issues/new) with:
