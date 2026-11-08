@@ -1,0 +1,57 @@
+{
+  "order": 46,
+  "anchorExponent": 2016,
+  "summary": {
+    "coordinates": 386,
+    "residuals": 355,
+    "degree": 4,
+    "monomials": 26046,
+    "integerContent": 1,
+    "inputFourthPowerCoefficient": "1",
+    "maximumCoefficientDigits": 646,
+    "maximumCoefficientBits": 2146,
+    "scaledCoordinates": 13,
+    "ternaryScaledCoordinates": 12,
+    "dyadicScaledCoordinates": 2,
+    "anchorExponent": 2016,
+    "cExponent": 336,
+    "tableSha256": "99a4ef561398c928aa5f553b5928592b4c828782c6d8505a4806501c8dbb002d",
+    "tableBytes": 1022019,
+    "certificateSha256": "dd9371ec7e958510177da7727d60398c19c3630c27de4a92313bede9dd5e39ce"
+  },
+  "omittedCoordinates": [
+    {
+      "id": 52,
+      "name": "scalar.preparationU",
+      "kind": "base",
+      "protected": false,
+      "block": "base",
+      "sourceLines": [
+        2354,
+        2487
+      ]
+    },
+    {
+      "id": 53,
+      "name": "scalar.preparationV",
+      "kind": "base",
+      "protected": false,
+      "block": "base",
+      "sourceLines": [
+        2354,
+        2487
+      ]
+    }
+  ],
+  "arithmeticAcceptance": false,
+  "files": {
+    "builder.cjs": "9752b538843caec609d35b4872c350995533da8eefcce96d86dc0aac2d30cbbc",
+    "raw-translated-ir.json": "c39aa8f033dbd90350247d1504d316ccd49d5e76616d0c9c14fdd834b3a65516",
+    "final/integer-candidate-ir.json": "5a7503db2528d5054f8ea66e4d57fda2dc5797ceee870fef4b54ab48b697f4c3",
+    "balanced/polynomial.json": "723cfb55c3a95aa14b5bf93abc28324647ccff407e897737d5d5cd54effad087",
+    "precision-check.json": "969048c8204b27fde98963f55b187a1b98278fe1d6cdac2b6eb114614569b7f2",
+    "gate-check.json": "3048f744fd51411383835ccd3357074e1f67f35b9efd618148ad9436b39c0a61",
+    "transport-check.json": "5b43336439010c3f288d391e328a3da2475a28cec1dbd48df92e4868ec279db1",
+    "diagonal-check.json": "3f159bed43bf3ddd5d0d874e4e5c74d2e29879a28bbfa1a88c11ec01f6e2339a"
+  }
+}

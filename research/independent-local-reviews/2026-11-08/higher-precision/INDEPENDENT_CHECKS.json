@@ -1,0 +1,98 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "status": "PASS",
+  "scope": "Finite exact algebra and arithmetic. Infinite-tail coverage is established by the separate monotonicity proof; no inherited global theorem acceptance.",
+  "commit": "bc51100fd3ada82df0dac55d6f1d235219430c74",
+  "sourceFiles": 60,
+  "a13": "-54756974/6936596275",
+  "tail": {
+    "allJGe14BaseAtR1": 51,
+    "allJGe14IncreaseLowerBound": 3,
+    "p53FirstOmittedDepthOne": 51,
+    "p53LaterTermsLowerBound": 55,
+    "uniformRelativePrecision": 51
+  },
+  "circuits": {
+    "46": {
+      "liftExponentsInQ1Delta": [
+        46,
+        45
+      ],
+      "outputExponentsInQ1Delta": [
+        91,
+        90
+      ]
+    },
+    "47": {
+      "liftExponentsInQ1Delta": [
+        47,
+        46
+      ],
+      "outputExponentsInQ1Delta": [
+        93,
+        92
+      ]
+    }
+  },
+  "height": {
+    "Hbits": 665,
+    "scalarRatioFloorBits": 1897,
+    "lucas": [
+      {
+        "order": 46,
+        "ratioFloorBits": 7656
+      },
+      {
+        "order": 47,
+        "ratioFloorBits": 27843
+      },
+      {
+        "order": 48,
+        "ratioFloorBits": 48030
+      },
+      {
+        "order": 49,
+        "ratioFloorBits": 68216
+      },
+      {
+        "order": 50,
+        "ratioFloorBits": 88403
+      },
+      {
+        "order": 51,
+        "ratioFloorBits": 108589
+      }
+    ],
+    "allInputMargins": true,
+    "anchor2010FailsScalarSufficientInequality": true,
+    "order45At2016FailsLucasSufficientInequality": true
+  },
+  "expansions": [
+    {
+      "order": 46,
+      "variables": 386,
+      "residuals": 355,
+      "monomials": 26046,
+      "maximumDigits": 646,
+      "maximumBits": 2146,
+      "allGatesVerified": true,
+      "allQuarticCoefficientsCompared": true,
+      "polynomialSha256": "723cfb55c3a95aa14b5bf93abc28324647ccff407e897737d5d5cd54effad087",
+      "tableSha256": "99a4ef561398c928aa5f553b5928592b4c828782c6d8505a4806501c8dbb002d",
+      "measuredSha256": "90acfe9525a215517d17e3ea0c812493145df00aef7657f357eac9f86a5efbe7"
+    },
+    {
+      "order": 47,
+      "variables": 386,
+      "residuals": 355,
+      "monomials": 26037,
+      "maximumDigits": 646,
+      "maximumBits": 2146,
+      "allGatesVerified": true,
+      "allQuarticCoefficientsCompared": true,
+      "polynomialSha256": "7576ef089f6f5eddc1e70a3befd02ff1a3bdc7877288d6d4acb04a4e245d0b35",
+      "tableSha256": "3f368679b51115c2fff1a895b84998239491942c20813aec004d49de04a2435e",
+      "measuredSha256": "f53318d6104ff10962803280d719c39e874d1235406f917072fd480f4f9c6288"
+    }
+  ]
+}

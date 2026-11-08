@@ -52,6 +52,34 @@
     {
       "path": "preparation-zero/replay/reproduction-receipt.json",
       "sha256": "5d894a50db9ba12b218dc36ee34e0a839eeffbab4163ac33cc4aa5b09abc4675"
+    },
+    {
+      "path": "higher-precision/REPORT.md",
+      "sha256": "79c9b84d571a8798230c77d497a918713e0a22900a8b2f703dc06b09b63a1584"
+    },
+    {
+      "path": "higher-precision/FINDINGS.json",
+      "sha256": "034a6beca572f93e36e52a05e0c04bbea80b734dc256dbd3547a25cb4fe110c6"
+    },
+    {
+      "path": "higher-precision/SOURCE_HASHES.json",
+      "sha256": "18ea20e6d09679155b3ebfeecf896743f74ba9f6bd9ae27071b6eadc45d03535"
+    },
+    {
+      "path": "higher-precision/INDEPENDENT_CHECKS.json",
+      "sha256": "80be8651d12fccf5192258be48ced49fdf2f90024673506765f97d6efcbbf4d8"
+    },
+    {
+      "path": "higher-precision/independent_checks.py",
+      "sha256": "1d1de901745234af1c899f75b512ae3189594227ed2de23673b7e7493ccb5b6c"
+    },
+    {
+      "path": "higher-precision/order46/MEASURED.json",
+      "sha256": "90acfe9525a215517d17e3ea0c812493145df00aef7657f357eac9f86a5efbe7"
+    },
+    {
+      "path": "higher-precision/order47/MEASURED.json",
+      "sha256": "f53318d6104ff10962803280d719c39e874d1235406f917072fd480f4f9c6288"
     }
   ]
 }
