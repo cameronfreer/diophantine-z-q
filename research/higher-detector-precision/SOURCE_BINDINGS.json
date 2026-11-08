@@ -147,7 +147,7 @@
     },
     {
       "path": "research/higher-detector-precision/APPLICATION_CONTRACT.json",
-      "sha256": "1d8ea427e9d2214491543d71446593d9a32a4eda048bf41fa6855524b40a15a7"
+      "sha256": "f8f5cbd6042a86ec244e0ca7c75d62df209e238283268358ec8453b9855ee77d"
     },
     {
       "path": "research/higher-detector-precision/EXPECTED.json",
@@ -155,7 +155,7 @@
     },
     {
       "path": "research/higher-detector-precision/PROOF.md",
-      "sha256": "771c9c1534892148a12f43d543be7d7fd56d121659d3891bf43de4055be37c46"
+      "sha256": "e6a825c3b85a9c56a6a2678ad0fa411ecedec53a005a0464efb45677f056054c"
     },
     {
       "path": "research/higher-detector-precision/README.md",

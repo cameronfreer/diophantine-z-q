@@ -8,7 +8,7 @@
   "parentCommit": "a1f9233049cc0f8aeb2a6ccd7e7b613cec3c1ec0",
   "proof": {
     "path": "research/higher-detector-precision/PROOF.md",
-    "sha256": "771c9c1534892148a12f43d543be7d7fd56d121659d3891bf43de4055be37c46"
+    "sha256": "e6a825c3b85a9c56a6a2678ad0fa411ecedec53a005a0464efb45677f056054c"
   },
   "sources": [
     {
@@ -250,8 +250,8 @@
     },
     {
       "id": "exceptional_cases",
-      "requiredInput": "Identity input, zero pole witnesses, p=53 tail loss, p=41 scalar case, positivity guards.",
-      "constructedInput": "Retain the identity cross-test branch and all guards; existing scalar and factored-pole zero cases unchanged.",
+      "requiredInput": "Every primary identity branch, zero pole witnesses, p=53 tail loss, p=41 scalar case, positivity guards.",
+      "constructedInput": "For any U_i=O the raw chart gives L_i=0; the cross test and alternate unit ratio force v(n_i)>=k_i. Retain all guards and existing scalar and pole zero cases.",
       "justification": "Do not form log(O)/z(O); do not divide by a factored witness. At 53 use loss one, so do not claim precision 52.",
       "consumer": "PROOF.md: The existing logarithm; Local soundness; Completeness",
       "sources": [

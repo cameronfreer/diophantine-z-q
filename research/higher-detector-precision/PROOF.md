@@ -111,9 +111,17 @@ least 51, hence at least m for m=46 or 47. Integral ratios turn these
 relative errors into absolute errors. Multiplication by h and h-1 and
 subtraction give the actual label congruences `L_i=n_i mod p^m` for the
 three Lucas labels. For the input label the same argument uses G2 and its
-order-12 cross test, giving precision 12. Its separate identity-point branch
-continues to use the cross-test order and never forms `log(O)/z(O)`.
-At an inert prime conjugation preserves the valuation, so nothing is lost.
+order-12 cross test, giving precision 12.
+
+If any primary numerator point U_i is the identity, the raw chart gives
+`L_i=0` and its integer index is `u_i=0`. The alternate point is the negative
+of the corresponding guarded nonidentity root, so its logarithm ratio is
+defined. The cross test forces `v(L_i')>=k_i`, with `k_i=12` for the input
+and `k_i=m` for a Lucas label. The unchanged unit estimate preserves this
+valuation in `r_i'=-n_i/(h-1)`. Since h-1 is an integer, `v(n_i)>=k_i`,
+which proves the desired congruence for `L_i=0`. This covers every primary
+identity branch without forming `log(O)/z(O)`. At an inert prime conjugation
+preserves the valuation, so nothing is lost.
 
 Thus the same literal Lucas residual of the same integer labels is divisible
 to order m by the same contact radicals. No theorem about a different ratio,
