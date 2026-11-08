@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-08",
+  "authorship": "Integrator /root; separate from independent reviewer records",
+  "head": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
+  "publicSourceBindingsSha256": "23462ef0798ba6f9cb73bc7ccf1b21184fc9b98356c1a834dd154937841ed8d7",
+  "prs": [
+    {
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
+      "isDraft": false,
+      "mergeStateStatus": "BLOCKED",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/13"
+    },
+    {
+      "baseRefOid": "772fe96a0e65bee76db500d8ef3a7a6b5e884d1f",
+      "headRefOid": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
+      "isDraft": false,
+      "mergeStateStatus": "UNSTABLE",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/4"
+    }
+  ],
+  "ciRun": 42501591301,
+  "publicTables": [
+    {
+      "artifactPath": "cubic-reuse-order-45/quartic-380-balanced-decimal.txt",
+      "sha256": "373c624d3b1293809e521ab8113052ff473f1b14ea1cde2facb361979515f6e5",
+      "bytes": 1025480
+    },
+    {
+      "artifactPath": "cubic-reuse-order-47/quartic-383-balanced-decimal.txt",
+      "sha256": "8ac84ab634f1636110d9c33df9613612110b44b6e9a044469873b51ef0e91ebc",
+      "bytes": 1022041
+    }
+  ],
+  "scope": "Actual public refs, source manifest and both downloaded CI decimal-table artifacts match reviewed bytes. No private-mirror publication or designated App acceptance asserted."
+}

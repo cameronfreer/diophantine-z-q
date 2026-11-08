@@ -217,6 +217,11 @@
     {
       "path": "detector-cube/REVIEW_MANIFEST_SHA256.txt",
       "sha256": "a2c24577000fd2107952675b36dde37c01ece4e08b258315ec12468288aa0c16"
+    },
+    {
+      "path": "detector-cube/PUBLIC_READBACK.json",
+      "sha256": "e552db18dd786bbcf70929754a0b7e3dcf36651478f3ef4b4562d5ebbd64dfb2",
+      "authorship": "Integrator; separate from reviewer-authored manifest"
     }
   ]
 }
