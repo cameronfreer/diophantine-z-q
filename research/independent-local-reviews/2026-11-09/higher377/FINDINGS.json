@@ -1,0 +1,118 @@
+{
+  "format": "independent-local-review-findings-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "head": "75e7630341e0722aca7bca414e10b6ff003ba498",
+  "unresolvedMaterialLocalObjections": 0,
+  "authorRepairsDuringReview": [],
+  "findings": [
+    {
+      "id": "IHIGH01",
+      "title": "Actual scalar inverse and order47 descent",
+      "historicalDisposition": "Prior norm/proxy inputs located; changed application rederived",
+      "status": "accepted within conditional local scope",
+      "finding": "Actual inverse rows force r^-31 and the leaf is Tproxy/r^32; kappa stays r^-15 in all four nodes. The strict norm bounds yield1475R/32. The unchanged two-place proxy, after four formal premises, supplies radical47 including both places above41. No47R assertion is made.",
+      "evidence": [
+        "REPORT.md: Scalar construction and strict order47 descent",
+        "INDEPENDENT_CHECKS.json",
+        "SOURCE_EXCERPTS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH02",
+      "title": "Stronger scalar preparation and final shared H",
+      "historicalDisposition": "Existing arbitrary finite preparation and real orbit arguments located; actual higher-depth composition checked",
+      "status": "accepted within conditional local scope",
+      "finding": "Proxy depth48R+1 supplies the unchanged sufficient five leaf depths16R+1 and rootN>=16R+2 for every R>=1. Exact rho congruences, real limit, fixed H0 then Q, L0 and bounds precede prime choices. The compatible Pi^49 progression supplies one actual H meeting all scalar and detector conditions.",
+      "evidence": [
+        "REPORT.md: Stronger finite preparation and one shared H",
+        "INDEPENDENT_CHECKS.json",
+        "SOURCE_EXCERPTS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH03",
+      "title": "Actual inverse-seventh chain and all detector tests",
+      "historicalDisposition": "Original weight47 construction located; current arithmetic application newly reviewed",
+      "status": "accepted within conditional local scope",
+      "finding": "One actual fourth-power slot is shared. Seven weight coordinates supply q12=q1^23 and q50=q1^99 with powers198,297. Positive q8 and I exclude quotient zero branches. All sixteen tests use exact normalized inputs D/delta^(2m-1), at orders1,12,50. The common-place proof and all pole hypotheses match the actual constructed objects.",
+      "evidence": [
+        "REPORT.md: The inverse-seventh detector circuit and normalization",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH04",
+      "title": "Precision51, identities and all height consumers at1512",
+      "historicalDisposition": "Actual supplying tail, two-anchor, anchor and height arguments located and rederived at new parameters",
+      "status": "accepted within conditional local scope",
+      "finding": "Full G12 tail including the a13 denominator loss supplies51; integrality precedes absolute-error conversion; primary depth50 gives200 and every primary identity is handled. E1512 gives2*3^755 divisibility, requires a newly evaluated private anchor gate and new witnesses. Scalar47 exponent927/1504, Lucas monotone exponent892 and input12 final gap22/4775 all check exactly.",
+      "evidence": [
+        "REPORT.md: Precision, identities and actual downstream objects",
+        "REPORT.md: Anchor1512 and the three height consumers",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH05",
+      "title": "Changed physical inputs and conic transport",
+      "historicalDisposition": "Earlier object-identity distinctions and A/tri maps retained",
+      "status": "accepted within conditional local scope",
+      "finding": "The scalar leaf,N and scalar physical input change; higher detector weights,W,trace and pole inputs change. Formal outside-row identity is not evaluated object equality or arbitrary witness-tuple equivalence. New pole witnesses satisfy the converse. All four actual conic maps preserve zero branches; scalar coefficient is42r, not42rN^2; tri retains its fixed Bh rescaling.",
+      "evidence": [
+        "REPORT.md: Conic transport, complete finite checks and cost",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH06",
+      "title": "Complete polynomial and source comparison",
+      "historicalDisposition": "New current implementation above the exact reviewed parent",
+      "status": "finite checks passed; uniform arithmetic separately reviewed",
+      "finding": "Fresh parent raw IR equals the previous independent power376 replay. After declared high-name/shared-slot renaming,347 common rows and all formal aliases/guards agree outside the listed changes. Every346 diagonal row and25979 coefficient was independently reconstructed:377 active variables,327 digits,1084 bits. The audit structural self-test and seven source mutation controls passed.",
+      "evidence": [
+        "INDEPENDENT_CHECKS.json",
+        "replay/MEASURED.json",
+        "replay/higher-check.json",
+        "replay/gate-check.json",
+        "replay/transport-check.json",
+        "replay/diagonal-check.json",
+        "audit-self-test.log"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH07",
+      "title": "Historical corrections and selected archive scope",
+      "historicalDisposition": "Original proposals and actual later corrections read; prior verdicts preserved",
+      "status": "scope accepted; no optimality or unrelated-route acceptance",
+      "finding": "All350 committed source bindings, all208 original archive entries and all20 parent selected review files match exact bytes. The original unfinished scalar47/order50 applications are not retroactively treated as accepted. Stale generated W>=1 is corrected to W=N>0. Tau,B/C,dropped-test,alternative normalizations and universal circuit/height optima remain outside this review.",
+      "evidence": [
+        "SOURCE_HASHES.json",
+        "ARCHIVE_PROVENANCE.json",
+        "REPORT.md: Contract and cumulative handoff scope"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IHIGH08",
+      "title": "Conditional non-release scope and inherited open duties",
+      "historicalDisposition": "Inherited unresolved duties preserved",
+      "status": "open outside this local decision",
+      "finding": "The376-variable parent remains an alternative. This377-variable route crosses no below300 milestone and claims no current edition replacement. Current Version13 surfaces may stay unchanged. Published-source/global/Kato closure, manuscript incorporation, historical stdout incident, public readback and designated App authorization remain separate.",
+      "evidence": [
+        "REPORT.md: Contract and cumulative handoff scope",
+        "research/higher-order-variant/HANDOFF.md",
+        "docs/research-review/PROTOCOL.md",
+        "docs/release-policy.md"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    }
+  ]
+}

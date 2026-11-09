@@ -1,0 +1,39 @@
+{
+  "author": "Codex /root",
+  "date": "2026-11-09",
+  "scope": "Public destination readback, separate from mathematical review; draft flags recorded before ready transition.",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "75e7630341e0722aca7bca414e10b6ff003ba498",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/20"
+    },
+    {
+      "baseRefName": "proposal/quartic-376-odd-power-detectors",
+      "baseRefOid": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+      "headRefOid": "75e7630341e0722aca7bca414e10b6ff003ba498",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/9"
+    }
+  ],
+  "sourceManifestSha256": "4c4bf6a9fbd36116a0e24f150a53001627ceaac46cfc1c626c854a8ce69bb939",
+  "runs": [
+    {
+      "id": 42551556051,
+      "conclusion": "success",
+      "headSha": "75e7630341e0722aca7bca414e10b6ff003ba498",
+      "status": "completed"
+    },
+    {
+      "id": 42551556049,
+      "conclusion": "success",
+      "headSha": "75e7630341e0722aca7bca414e10b6ff003ba498",
+      "status": "completed"
+    }
+  ],
+  "downloadedCompleteTableSha256": "1e02fbc1675c9474c3fcc754aae2edece6493f2fb67ec1909d57ac387269690b"
+}

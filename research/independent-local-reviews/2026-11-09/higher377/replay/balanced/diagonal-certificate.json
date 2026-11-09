@@ -1,0 +1,2500 @@
+{
+  "format": "diagonal-scaling-certificate-v2",
+  "sourceIrSha256": "89d0edd84bb7dea6636995f630c99c8dc6259e5a198ed5d39db51ab2904c1011",
+  "anchorExponent": 1512,
+  "cExponent": null,
+  "direction": "old_x_i = 2^twoPower[i] * 3^threePower[i] * new_x_i",
+  "threePowers": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 250,
+    "6": 250,
+    "7": 170,
+    "8": 170,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 1,
+    "20": 1,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0,
+    "32": 0,
+    "33": 0,
+    "34": 0,
+    "35": 0,
+    "36": 0,
+    "37": 0,
+    "38": 0,
+    "39": 0,
+    "40": 0,
+    "41": 0,
+    "42": 0,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": 0,
+    "50": 0,
+    "51": 0,
+    "54": 0,
+    "55": 0,
+    "56": 0,
+    "57": 0,
+    "58": 1174,
+    "59": 1173,
+    "60": 1174,
+    "61": 0,
+    "62": 0,
+    "63": 169,
+    "64": 169,
+    "65": 0,
+    "66": 0,
+    "67": 0,
+    "68": 0,
+    "69": 27,
+    "70": 338,
+    "71": 0,
+    "72": 0,
+    "73": 0,
+    "74": 0,
+    "75": 0,
+    "76": 0,
+    "77": 0,
+    "78": 0,
+    "79": 1,
+    "80": 0,
+    "81": 317,
+    "82": 317,
+    "83": 0,
+    "84": 0,
+    "85": 0,
+    "86": 0,
+    "87": 0,
+    "88": 0,
+    "89": 0,
+    "90": 0,
+    "91": 0,
+    "92": 0,
+    "93": 0,
+    "94": 0,
+    "95": 0,
+    "96": 0,
+    "97": 0,
+    "98": 0,
+    "99": 0,
+    "100": 0,
+    "101": 0,
+    "102": 0,
+    "103": 0,
+    "104": 0,
+    "105": 0,
+    "106": 0,
+    "107": 0,
+    "108": 0,
+    "109": 0,
+    "110": 0,
+    "111": 0,
+    "112": 0,
+    "113": 0,
+    "114": 0,
+    "115": 0,
+    "116": 0,
+    "119": 0,
+    "120": 0,
+    "121": 0,
+    "122": 0,
+    "125": 0,
+    "126": 0,
+    "127": 0,
+    "128": 0,
+    "129": 0,
+    "130": 0,
+    "131": 0,
+    "132": 0,
+    "133": 0,
+    "134": 0,
+    "137": 0,
+    "138": 0,
+    "139": 0,
+    "140": 0,
+    "141": 0,
+    "142": 0,
+    "143": 0,
+    "144": 0,
+    "145": 0,
+    "146": 0,
+    "149": 0,
+    "150": 0,
+    "151": 0,
+    "152": 0,
+    "153": 0,
+    "154": 0,
+    "155": 0,
+    "156": 0,
+    "157": 0,
+    "158": 0,
+    "161": 0,
+    "162": 0,
+    "163": 0,
+    "164": 0,
+    "165": 0,
+    "166": 0,
+    "167": 0,
+    "168": 0,
+    "169": 0,
+    "170": 0,
+    "171": 0,
+    "172": 0,
+    "173": 0,
+    "174": 0,
+    "175": 0,
+    "176": 0,
+    "177": 0,
+    "178": 0,
+    "179": 0,
+    "180": 0,
+    "181": 0,
+    "182": 0,
+    "183": 0,
+    "184": 0,
+    "185": 0,
+    "186": 0,
+    "187": 0,
+    "188": 0,
+    "189": 0,
+    "190": 0,
+    "191": 0,
+    "192": 0,
+    "193": 0,
+    "194": 0,
+    "195": 0,
+    "196": 0,
+    "197": 0,
+    "198": 0,
+    "199": 0,
+    "200": 0,
+    "201": 0,
+    "202": 0,
+    "203": 0,
+    "204": 0,
+    "205": 0,
+    "206": 0,
+    "207": 0,
+    "208": 0,
+    "209": 0,
+    "210": 0,
+    "211": 0,
+    "212": 0,
+    "213": 0,
+    "214": 0,
+    "215": 0,
+    "216": 0,
+    "217": 0,
+    "218": 0,
+    "219": 0,
+    "220": 0,
+    "221": 0,
+    "222": 0,
+    "223": 0,
+    "224": 0,
+    "225": 0,
+    "226": 0,
+    "227": 0,
+    "228": 0,
+    "229": 0,
+    "230": 0,
+    "231": 0,
+    "232": 0,
+    "233": 0,
+    "234": 0,
+    "235": 0,
+    "236": 0,
+    "237": 0,
+    "238": -16,
+    "239": 0,
+    "240": 0,
+    "241": 0,
+    "242": 0,
+    "244": 0,
+    "245": 0,
+    "246": 0,
+    "247": 0,
+    "248": 0,
+    "249": 0,
+    "250": 0,
+    "251": 0,
+    "252": 0,
+    "253": 0,
+    "254": 0,
+    "255": 0,
+    "256": 0,
+    "257": 0,
+    "258": 0,
+    "259": 0,
+    "260": 0,
+    "261": 0,
+    "262": 0,
+    "263": 0,
+    "264": 0,
+    "265": 0,
+    "266": 0,
+    "267": 0,
+    "268": 0,
+    "269": 0,
+    "270": 0,
+    "271": 0,
+    "272": 0,
+    "273": 0,
+    "274": 0,
+    "275": 0,
+    "276": 0,
+    "277": 0,
+    "279": 0,
+    "280": 0,
+    "281": 0,
+    "282": 0,
+    "283": 0,
+    "284": 0,
+    "285": 0,
+    "286": 0,
+    "287": 0,
+    "288": 0,
+    "289": 0,
+    "290": 0,
+    "291": 0,
+    "292": 0,
+    "293": 0,
+    "294": 0,
+    "295": 0,
+    "296": 0,
+    "297": 0,
+    "298": 0,
+    "299": 0,
+    "300": 0,
+    "301": 0,
+    "302": 0,
+    "303": 0,
+    "304": 0,
+    "305": 0,
+    "306": 0,
+    "307": 0,
+    "308": 0,
+    "309": 0,
+    "310": 0,
+    "311": 0,
+    "312": 0,
+    "313": 0,
+    "314": 0,
+    "315": 0,
+    "316": 0,
+    "317": 0,
+    "318": 0,
+    "319": 0,
+    "320": 0,
+    "322": 0,
+    "323": 0,
+    "324": 0,
+    "325": 0,
+    "326": 0,
+    "327": 0,
+    "328": 0,
+    "329": 0,
+    "330": 0,
+    "331": 0,
+    "332": 0,
+    "333": 0,
+    "334": 0,
+    "335": 0,
+    "336": 0,
+    "337": 0,
+    "338": 0,
+    "339": 0,
+    "340": 0,
+    "341": 0,
+    "342": 0,
+    "343": 0,
+    "344": 0,
+    "345": 0,
+    "346": 0,
+    "347": 0,
+    "348": 0,
+    "349": 0,
+    "350": 0,
+    "351": 0,
+    "352": 0,
+    "353": 0,
+    "354": 0,
+    "355": 0,
+    "356": 0,
+    "357": 0,
+    "358": 0,
+    "359": 0,
+    "360": 0,
+    "361": 0,
+    "362": 0,
+    "363": 0,
+    "365": 0,
+    "366": 0,
+    "367": 0,
+    "368": 0,
+    "369": 0,
+    "370": -137,
+    "371": -618,
+    "372": -924,
+    "373": 586,
+    "374": 586,
+    "375": 664,
+    "376": 663,
+    "377": -324,
+    "378": 1244,
+    "379": 632,
+    "380": 1605,
+    "381": 987,
+    "382": 1633,
+    "383": 987,
+    "384": 1634,
+    "385": 676,
+    "386": 1012,
+    "387": 50,
+    "388": 0,
+    "389": 0,
+    "390": 0,
+    "392": 0,
+    "393": 1173
+  },
+  "twoPowers": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 2,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0,
+    "32": 0,
+    "33": 0,
+    "34": 0,
+    "35": 0,
+    "36": 0,
+    "37": 0,
+    "38": 0,
+    "39": 0,
+    "40": 0,
+    "41": 0,
+    "42": 0,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": 0,
+    "50": 0,
+    "51": 0,
+    "54": 0,
+    "55": 0,
+    "56": 0,
+    "57": 0,
+    "58": 0,
+    "59": 0,
+    "60": 0,
+    "61": 0,
+    "62": 0,
+    "63": 1,
+    "64": 0,
+    "65": 0,
+    "66": 0,
+    "67": 0,
+    "68": 0,
+    "69": 2,
+    "70": -1,
+    "71": 0,
+    "72": 0,
+    "73": 0,
+    "74": 0,
+    "75": 0,
+    "76": 0,
+    "77": 0,
+    "78": 0,
+    "79": 2,
+    "80": 0,
+    "81": 0,
+    "82": 0,
+    "83": 0,
+    "84": 0,
+    "85": 0,
+    "86": 0,
+    "87": 0,
+    "88": 0,
+    "89": 0,
+    "90": 0,
+    "91": 0,
+    "92": 0,
+    "93": 0,
+    "94": 0,
+    "95": 0,
+    "96": 0,
+    "97": 0,
+    "98": 0,
+    "99": 0,
+    "100": 0,
+    "101": 0,
+    "102": 0,
+    "103": 0,
+    "104": 0,
+    "105": 0,
+    "106": 0,
+    "107": 0,
+    "108": 0,
+    "109": 0,
+    "110": 0,
+    "111": 0,
+    "112": 0,
+    "113": 0,
+    "114": 0,
+    "115": 0,
+    "116": 0,
+    "119": 0,
+    "120": 0,
+    "121": 0,
+    "122": 0,
+    "125": 0,
+    "126": 0,
+    "127": 0,
+    "128": 0,
+    "129": 0,
+    "130": 0,
+    "131": 0,
+    "132": 0,
+    "133": 0,
+    "134": 0,
+    "137": 0,
+    "138": 0,
+    "139": 0,
+    "140": 0,
+    "141": 0,
+    "142": 0,
+    "143": 0,
+    "144": 0,
+    "145": 0,
+    "146": 0,
+    "149": 0,
+    "150": 0,
+    "151": 0,
+    "152": 0,
+    "153": 0,
+    "154": 0,
+    "155": 0,
+    "156": 0,
+    "157": 0,
+    "158": 0,
+    "161": 0,
+    "162": 0,
+    "163": 0,
+    "164": 0,
+    "165": 0,
+    "166": 0,
+    "167": 0,
+    "168": 0,
+    "169": 0,
+    "170": 0,
+    "171": 0,
+    "172": 0,
+    "173": 0,
+    "174": 0,
+    "175": 0,
+    "176": 0,
+    "177": 0,
+    "178": 0,
+    "179": 0,
+    "180": 0,
+    "181": 0,
+    "182": 0,
+    "183": 0,
+    "184": 0,
+    "185": 0,
+    "186": 0,
+    "187": 0,
+    "188": 0,
+    "189": 0,
+    "190": 0,
+    "191": 0,
+    "192": 0,
+    "193": 0,
+    "194": 0,
+    "195": 0,
+    "196": 0,
+    "197": 0,
+    "198": 0,
+    "199": 0,
+    "200": 0,
+    "201": 0,
+    "202": 0,
+    "203": 0,
+    "204": 0,
+    "205": 0,
+    "206": 0,
+    "207": 0,
+    "208": 0,
+    "209": 0,
+    "210": 0,
+    "211": 0,
+    "212": 0,
+    "213": 0,
+    "214": 0,
+    "215": 0,
+    "216": 0,
+    "217": 0,
+    "218": 0,
+    "219": 0,
+    "220": 0,
+    "221": 0,
+    "222": 0,
+    "223": 0,
+    "224": 0,
+    "225": 0,
+    "226": 0,
+    "227": 0,
+    "228": 0,
+    "229": 0,
+    "230": 0,
+    "231": 0,
+    "232": 0,
+    "233": 0,
+    "234": 0,
+    "235": 0,
+    "236": 0,
+    "237": 0,
+    "238": 0,
+    "239": 0,
+    "240": 0,
+    "241": 0,
+    "242": 0,
+    "244": 0,
+    "245": 0,
+    "246": 0,
+    "247": 0,
+    "248": 0,
+    "249": 0,
+    "250": 0,
+    "251": 0,
+    "252": 0,
+    "253": 0,
+    "254": 0,
+    "255": 0,
+    "256": 0,
+    "257": 0,
+    "258": 0,
+    "259": 0,
+    "260": 0,
+    "261": 0,
+    "262": 0,
+    "263": 0,
+    "264": 0,
+    "265": 0,
+    "266": 0,
+    "267": 0,
+    "268": 0,
+    "269": 0,
+    "270": 0,
+    "271": 0,
+    "272": 0,
+    "273": 0,
+    "274": 0,
+    "275": 0,
+    "276": 0,
+    "277": 0,
+    "279": 0,
+    "280": 0,
+    "281": 0,
+    "282": 0,
+    "283": 0,
+    "284": 0,
+    "285": 0,
+    "286": 0,
+    "287": 0,
+    "288": 0,
+    "289": 0,
+    "290": 0,
+    "291": 0,
+    "292": 0,
+    "293": 0,
+    "294": 0,
+    "295": 0,
+    "296": 0,
+    "297": 0,
+    "298": 0,
+    "299": 0,
+    "300": 0,
+    "301": 0,
+    "302": 0,
+    "303": 0,
+    "304": 0,
+    "305": 0,
+    "306": 0,
+    "307": 0,
+    "308": 0,
+    "309": 0,
+    "310": 0,
+    "311": 0,
+    "312": 0,
+    "313": 0,
+    "314": 0,
+    "315": 0,
+    "316": 0,
+    "317": 0,
+    "318": 0,
+    "319": 0,
+    "320": 0,
+    "322": 0,
+    "323": 0,
+    "324": 0,
+    "325": 0,
+    "326": 0,
+    "327": 0,
+    "328": 0,
+    "329": 0,
+    "330": 0,
+    "331": 0,
+    "332": 0,
+    "333": 0,
+    "334": 0,
+    "335": 0,
+    "336": 0,
+    "337": 0,
+    "338": 0,
+    "339": 0,
+    "340": 0,
+    "341": 0,
+    "342": 0,
+    "343": 0,
+    "344": 0,
+    "345": 0,
+    "346": 0,
+    "347": 0,
+    "348": 0,
+    "349": 0,
+    "350": 0,
+    "351": 0,
+    "352": 0,
+    "353": 0,
+    "354": 0,
+    "355": 0,
+    "356": 0,
+    "357": 0,
+    "358": 0,
+    "359": 0,
+    "360": 0,
+    "361": 0,
+    "362": 0,
+    "363": 0,
+    "365": 0,
+    "366": 0,
+    "367": 0,
+    "368": 0,
+    "369": 0,
+    "370": 0,
+    "371": 0,
+    "372": 0,
+    "373": 0,
+    "374": 0,
+    "375": 0,
+    "376": 0,
+    "377": 0,
+    "378": 1,
+    "379": 0,
+    "380": 0,
+    "381": 0,
+    "382": 0,
+    "383": 0,
+    "384": 0,
+    "385": 0,
+    "386": 1,
+    "387": 0,
+    "388": 0,
+    "389": 0,
+    "390": 0,
+    "392": 0,
+    "393": 1
+  },
+  "rows": [
+    {
+      "id": 0,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 1,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 2,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 3,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 4,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 5,
+      "divisorNumerator": "860046718780068444165464023896713596622294494429995390540077627563064995094842566",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 6,
+      "divisorNumerator": "430023359390034222082732011948356798311147247214997695270038813781532497547421283",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 7,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 8,
+      "divisorNumerator": "3",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 9,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 10,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 11,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 12,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 13,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 14,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 15,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 16,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 17,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 18,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 19,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 20,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 21,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 22,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 23,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 24,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 25,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 26,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 27,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 28,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 29,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 30,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 31,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 32,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 33,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 34,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 35,
+      "divisorNumerator": "18",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 36,
+      "divisorNumerator": "36",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 37,
+      "divisorNumerator": "4",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 38,
+      "divisorNumerator": "9",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 39,
+      "divisorNumerator": "4",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 40,
+      "divisorNumerator": "3",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 41,
+      "divisorNumerator": "4",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 42,
+      "divisorNumerator": "3",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 43,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 44,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 45,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 46,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 47,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 48,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 49,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 50,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 51,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 52,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 53,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 54,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 55,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 56,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 57,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 58,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 59,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 60,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 61,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 62,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 63,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 64,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 65,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 66,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 67,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 68,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 69,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 70,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 71,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 72,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 73,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 74,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 75,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 76,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 79,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 80,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 83,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 84,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 85,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 86,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 87,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 88,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 89,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 90,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 91,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 92,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 93,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 94,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 97,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 98,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 99,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 100,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 101,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 102,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 103,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 104,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 105,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 106,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 109,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 110,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 111,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 112,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 113,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 114,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 115,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 116,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 117,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 118,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 121,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 122,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 123,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 124,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 125,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 126,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 127,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 128,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 129,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 130,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 131,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 132,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 133,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 134,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 135,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 136,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 137,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 138,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 139,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 140,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 141,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 142,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 143,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 144,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 145,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 146,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 147,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 148,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 149,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 150,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 151,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 152,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 153,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 154,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 155,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 156,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 157,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 158,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 159,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 160,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 161,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 162,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 163,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 164,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 165,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 166,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 167,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 168,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 169,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 170,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 171,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 172,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 173,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 174,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 175,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 176,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 177,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 178,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 179,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 180,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 181,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 182,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 183,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 184,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 185,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 186,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 187,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 188,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 189,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 190,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 191,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 192,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 193,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 194,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 195,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 196,
+      "divisorNumerator": "1",
+      "divisorDenominator": "43046721"
+    },
+    {
+      "id": 197,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 198,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 199,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 200,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 202,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 203,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 204,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 205,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 206,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 207,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 208,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 209,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 210,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 211,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 212,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 213,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 214,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 215,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 216,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 217,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 218,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 219,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 220,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 221,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 222,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 223,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 224,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 225,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 226,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 227,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 228,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 229,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 230,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 231,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 232,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 233,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 234,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 235,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 236,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 238,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 239,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 240,
+      "divisorNumerator": "1",
+      "divisorDenominator": "43046721"
+    },
+    {
+      "id": 241,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 242,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 243,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 244,
+      "divisorNumerator": "1",
+      "divisorDenominator": "43046721"
+    },
+    {
+      "id": 245,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1853020188851841"
+    },
+    {
+      "id": 246,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 247,
+      "divisorNumerator": "1",
+      "divisorDenominator": "43046721"
+    },
+    {
+      "id": 248,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 249,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 250,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 251,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 252,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 253,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 254,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 255,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 256,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 257,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 258,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 259,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 260,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 261,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 262,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 263,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 264,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 265,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 266,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 267,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 268,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 269,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 270,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 271,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 272,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 273,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 274,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 275,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 276,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 277,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 278,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 279,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 280,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 281,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 283,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 284,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 285,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 286,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 287,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 288,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 289,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 290,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 291,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 292,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 293,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 294,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 295,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 296,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 297,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 298,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 299,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 300,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 301,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 302,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 303,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 304,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 305,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 306,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 307,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 308,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 309,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 310,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 311,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 312,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 313,
+      "divisorNumerator": "1",
+      "divisorDenominator": "2"
+    },
+    {
+      "id": 314,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 315,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 316,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 317,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 318,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 319,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 320,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 321,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 322,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 323,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 324,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 325,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 326,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 328,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 329,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 330,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 331,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 332,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 333,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 334,
+      "divisorNumerator": "1",
+      "divisorDenominator": "8595044557171427132038716315969726107279416250769088168531684569"
+    },
+    {
+      "id": 335,
+      "divisorNumerator": "1",
+      "divisorDenominator": "268888143477664476576623963713366119709923761438095540246582300426479271702631177354018976567301758144464443087863536471057597085883409803948916717673393027342427801115636266218143507854730054571991657160573418569619522168256780045877965577779583383506335076005707339834925815075937907905072907"
+    },
+    {
+      "id": 336,
+      "divisorNumerator": "1",
+      "divisorDenominator": "52707307769388641421446478537735255957814292610987574069219063591832519708295034729171582081139146681614421665968632011778345789247835682265054344409001857032802554347308342144012484936400835054525870302589875160955308098594262224995263475112315540941076423389228167018781658219333378863847496799271363336970923394073966186231197686035609106906911291531104185906373287968932343273353221325310982099941368716801608969585690538496521318813893694935294507613013214844766612929546592408329797093897084414811264630736059177733342797634391554593168119546747582733343951365265594064505174378943121"
+    },
+    {
+      "id": 337,
+      "divisorNumerator": "491990795677607953897785266801594268881667474804721605465281592115688397243973711349941579263997013073617909483935160105541483180489991543515458437013802255819235087428793389404571502813042626896144802",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 338,
+      "divisorNumerator": "491990795677607953897785266801594268881667474804721605465281592115688397243973711349941579263997013073617909483935160105541483180489991543515458437013802255819235087428793389404571502813042626896144802",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 339,
+      "divisorNumerator": "9223248858081305339587790866161790381689657382354873608362045386460839035756279799724078657638199218961838362040358198135083280102925616775926212322287341226370614850205554935142229417642571688630962259235915997507152940634001994485138828709349028009164904086668462785940147736110930758071076629058100659367250865235419664678042697076678656468441595790799318970441530881880439698557041294604867841",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 340,
+      "divisorNumerator": "18446497716162610679175581732323580763379314764709747216724090772921678071512559599448157315276398437923676724080716396270166560205851233551852424644574682452741229700411109870284458835285143377261924518471831995014305881268003988970277657418698056018329808173336925571880295472221861516142153258116201318734501730470839329356085394153357312936883191581598637940883061763760879397114082589209735682",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 341,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 342,
+      "divisorNumerator": "69261678459086546416279392785413786185251957002011838151166134715079156434245977454859199462200312175519720054307658636241671618857684957438064466176038625764941003123404603046709014829219962589970012507647590366138745768756124811815823369437409133942563887725612461487369943130870827855247441280721950708252629971694742633208546531584322082873807915865266949476363064006841115450161205568678970844720917552276438326857306575846027",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 343,
+      "divisorNumerator": "954622147622608228972957007162328813832449706078477027700171216291543973761033616918333544268480756481510147656340593480746164697244619229336689663500802",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 344,
+      "divisorNumerator": "1205774140700057367029841118382944923620248132511848027153635806331099843006281183137651910999779536909930662066636768628749555435386551975340306944732487997617055090372951631499158313475239291318557310773470114099733297770844357159217979651411685169050680416072378479016564183530702092051568885272517721909608459685792435348730103428249864568461927866283700097592124707370865146770528614777158600200891631501002366427322987037228264018986968498034075250861844287379143331523611033873587064205420885200590442661253400373004934206919440195524967761164439563801328027786194477262719398372149599566173273281",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 345,
+      "divisorNumerator": "829236496921142476706699495492534678333952425419534289892901481209785342961686496112003849816259353947669184786817089357646445909706263355584372003200075313488935570269211950074115956571513326518146197550677383466919154911284033685809943263099187977900655123287740529620125316135462447582745383623592042654361925760199521859891889158161732532817099423444872173084985440322849485291685258736792319114827459947632739061572907631860285305265724594082011214874384364252979387",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 346,
+      "divisorNumerator": "137723787376770630203311377552101917358824734115874353904996823641532949820741439010743112788826618485618713590363316941392772075864224318810616094868861655007624109089150815032393185301820360300540046748047622221949352956608880111522079780754780066881965321714441060149672791739632767219628275760257222380835749323516967738259469123413551631042099743305351014355786023972659368367460888087672926382410322032976194448697063254740787073543606287968400412268378296838069985094354817060485535277811982993516950247880618534746289881704994429451936197733845085169703929730069730011043837001558490042701484004832646685420068117014473188181246857321123156731093249883508937742726004260690083977392151325324764680296020163496392087052630487543687039674887213969746193191556960139510651523",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 347,
+      "divisorNumerator": "829236496921142476706699495492534678333952425419534289892901481209785342961686496112003849816259353947669184786817089357646445909706263355584372003200075313488935570269211950074115956571513326518146197550677383466919154911284033685809943263099187977900655123287740529620125316135462447582745383623592042654361925760199521859891889158161732532817099423444872173084985440322849485291685258736792319114827459947632739061572907631860285305265724594082011214874384364252979387",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 348,
+      "divisorNumerator": "413171362130311890609934132656305752076474202347623061714990470924598849462224317032229338366479855456856140771089950824178316227592672956431848284606584965022872327267452445097179555905461080901620140244142866665848058869826640334566239342264340200645895965143323180449018375218898301658884827280771667142507247970550903214778407370240654893126299229916053043067358071917978105102382664263018779147230966098928583346091189764222361220630818863905201236805134890514209955283064451181456605833435948980550850743641855604238869645114983288355808593201535255509111789190209190033131511004675470128104452014497940056260204351043419564543740571963369470193279749650526813228178012782070251932176453975974294040888060490489176261157891462631061119024661641909238579574670880418531954569",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 349,
+      "divisorNumerator": "34195439545472154946430020344225218186099575255694742216511976457023103482562003139135787171206366684845118011426056660918667445366242570829809401258901074131740165019004039676142087019488913174188383351864954154673702084031813422182255597520971031957174511532636893417052873352706920536685529743749749066663987054439155921",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 350,
+      "divisorNumerator": "702602638375699359915700433697939353993029850507834374372012945410834016602530198516850767891080999058162176169003662039828931254066135015140629603253812158478912520099620806333736049631015304211703308628891412760395609156082552931257876788574036876377909093809183399711228332135816747832129612770760886349334258755803053550901279839133142251826294533943282776302062925193048201372180284125118430805085267181901521079141377663761183299555842556929552909351648205908608502280972551441",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 351,
+      "divisorNumerator": "38766491335360039793593446",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 352,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 353,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 354,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 355,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 357,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 358,
+      "divisorNumerator": "1",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 359,
+      "divisorNumerator": "15350076048906143180269289781039894671391192805507292723083145018547774425341024463472732096027395579711775323840970362731884466349694344021928151739183716749582046233161359490720493259358857245928727433322483560318055979967889815232747384381486607237158703922441725978236484409549241192861591095001627994720582463286578668279688112453164116709444230169312100185142668046814308024302192196813835901378516889628816584615636652605192831061456969347336672624954253978116913706638758802141620447962794960005195601651047429048888277484756612199685023243616256394641",
+      "divisorDenominator": "1"
+    },
+    {
+      "id": 360,
+      "divisorNumerator": "6361870537094454857515718825432239843422037721490469786720165205051964096936876715602622944884327848769934922045576536988312838383783664149141190953625859386775422034977265125835648522481269351489121224080308694847260595967898723426467829562116665413718230715679937517606728883926286129186520108077476442869213344294142544069286329565078866488423657869012176635349295397955355269685756675774574776264435455398171488017750005455964198707420659598907947223114232019998851024522948586983116164788820967610343441033150652112185844346943400642437645905625357228495423625643839324924775406807827046798770915361742614023469309034387327141881068452119565881338907198423574714791354462840874787357536827819091379005202456480655616863858655695393260733928425162350652011055887302282871544920673872808983241001750821011111442786011927615004608961060972968636953755139881029279925051675087658015103496862213673832159459988655961748379826470443250739118682756302639783597356791114376022370194931593100121871539649868282026341900859057383789336573421043317692195138264256030740675284849576215400194207573994428168987087471946205009787",
+      "divisorDenominator": "1"
+    }
+  ],
+  "newIrSha256": "e3855917a1dcd8cb06cebb5888c9a9c495707941272494044f35daa0087ad07a",
+  "polynomialSha256": "2a0ba15e5b65576f421fdf0ba9ff8f645c0a492d6395a4eb06735ced763368f5",
+  "zeroSetArgument": "Every diagonal factor and every row divisor is nonzero. The original input is fixed; sums of squares vanish over Q exactly when every row vanishes."
+}

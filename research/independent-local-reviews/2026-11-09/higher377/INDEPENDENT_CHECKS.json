@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "noAuthorCheckerImports": true,
+  "baselineMatchesEarlierIndependentPower376Replay": true,
+  "removedRows": [
+    "detector0.q1Sixth.definition",
+    "detector0.q1Twelfth.definition",
+    "detector1.q1Sixth.definition",
+    "detector1.q1Twelfth.definition",
+    "detector2.q1Sixth.definition",
+    "detector2.q1Twelfth.definition"
+  ],
+  "addedRows": [
+    "detector0.q1Eighth.definition",
+    "detector0.q1InverseSeventh.definition",
+    "detector1.q1Eighth.definition",
+    "detector1.q1InverseSeventh.definition",
+    "detector2.q1Eighth.definition",
+    "detector2.q1InverseSeventh.definition",
+    "scalar.rInverse31.definition"
+  ],
+  "changedRows": [
+    "detector0.q12.definition",
+    "detector0.q46.definition",
+    "detector1.q12.definition",
+    "detector1.q46.definition",
+    "detector2.q12.definition",
+    "detector2.q46.definition",
+    "scalar.ratioProxyLeaf.definition"
+  ],
+  "unchangedCommonRows": 347,
+  "rawCoordinateAndRowIncrease": 1,
+  "allCommonFormalAliasesAndGuardsIdenticalAfterDeclaredRenaming": true,
+  "identityCaveat": "The scalar proxy leaf,N and scalar physical input change. Higher weights,W,trace and detector pole inputs change. Formal alias identity is not evaluated object equality.",
+  "actualChains": [
+    {
+      "detector": 0,
+      "actualPowers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "E1.power4": 4,
+        "q1Eighth": 8,
+        "q1InverseSeventh": -7,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 99,
+        "E46.power2": 198,
+        "E46.power3": 297
+      },
+      "LaurentIdentitiesExact": true,
+      "fourthPowerAllocatedOnce": true
+    },
+    {
+      "detector": 1,
+      "actualPowers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "E1.power4": 4,
+        "q1Eighth": 8,
+        "q1InverseSeventh": -7,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 99,
+        "E46.power2": 198,
+        "E46.power3": 297
+      },
+      "LaurentIdentitiesExact": true,
+      "fourthPowerAllocatedOnce": true
+    },
+    {
+      "detector": 2,
+      "actualPowers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "E1.power4": 4,
+        "q1Eighth": 8,
+        "q1InverseSeventh": -7,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 99,
+        "E46.power2": 198,
+        "E46.power3": 297
+      },
+      "LaurentIdentitiesExact": true,
+      "fourthPowerAllocatedOnce": true
+    }
+  ],
+  "scalarInverseExponents": [
+    -1,
+    -3,
+    -7,
+    -15,
+    -31
+  ],
+  "scalarLeaf": "Tproxy/r^32",
+  "normNodeCoefficient": "r^-15 unchanged",
+  "actualScalarProxy": "Re(k_H*w_S)",
+  "scalarStrictBounds": {
+    "A": "1/4",
+    "J1": "31/4",
+    "B": "31/8",
+    "J2": "91/8",
+    "C": "91/16",
+    "J3": "211/16",
+    "D0": "211/32",
+    "y": "451/32",
+    "Tproxy": "1475/32"
+  },
+  "radicalOrder": 47,
+  "proxyFiniteDepth": "48R+1 gives five leaves>=16R+1 and rootN>=16R+2 for every R>=1",
+  "rhoCongruences": {
+    "mod32": 4,
+    "mod243": 81,
+    "mod17": 13
+  },
+  "actualOrderList": [
+    50,
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    12,
+    50,
+    50,
+    50,
+    50,
+    50
+  ],
+  "actualPoleInput": "R_det/Tr(W^-1)^2",
+  "normalizations": [
+    {
+      "order": 1,
+      "deltaDenominator": 1,
+      "nuAndS": [
+        1,
+        4
+      ],
+      "realDecayPower": -1
+    },
+    {
+      "order": 12,
+      "deltaDenominator": 23,
+      "nuAndS": [
+        23,
+        92
+      ],
+      "realDecayPower": -23
+    },
+    {
+      "order": 50,
+      "deltaDenominator": 99,
+      "nuAndS": [
+        99,
+        396
+      ],
+      "realDecayPower": -99
+    }
+  ],
+  "precision": {
+    "a13": "-54756974/6936596275",
+    "relativeBound": 51,
+    "consumedHighOrder": 50,
+    "primaryWeakBound": 200,
+    "primaryProgressionExponent": 49
+  },
+  "height": {
+    "anchorExponent": 1512,
+    "scalarOrder": 47,
+    "highOrder": 50,
+    "inputOrder": 12,
+    "scalarDenominator": 1504,
+    "scalarPositiveExponent": 927,
+    "uniformLucasRatioExponent": 892,
+    "inputGapAt301": "22/4775"
+  },
+  "fourConics": [
+    {
+      "prefix": "detector0",
+      "actualH": {
+        "detector0.normalized_e": "17",
+        "detector0.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector1",
+      "actualH": {
+        "detector1.normalized_e": "17",
+        "detector1.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector2",
+      "actualH": {
+        "detector2.normalized_e": "17",
+        "detector2.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "scalar",
+      "actualH": {
+        "scalar.normalized_e": "17",
+        "scalar.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    }
+  ],
+  "all346DiagonalRowIdentitiesChecked": true,
+  "weights": {
+    "specified": 36,
+    "ternary": 36,
+    "dyadic": 9,
+    "inputFixed": true
+  },
+  "coordinates": 377,
+  "residuals": 346,
+  "monomials": 25979,
+  "degree": 4,
+  "content": 1,
+  "allCoordinatesActive": true,
+  "inputFourthPowerCoefficient": 1,
+  "completeExpansionAndTextCompared": true,
+  "maximumAbsoluteCoefficient": "199427803429193607647579878647521472461332722891211736606697846697358739510301602307439910782475530506016728242636762446477668541375926673079448428141911064336308642390831559391260651497659341631866651708076412630057030554073535878166914644742303058374241751258338362408252357392986760569950009465548536556784372501489157331274",
+  "maximumDigits": 327,
+  "maximumBits": 1084,
+  "tableSha256": "1e02fbc1675c9474c3fcc754aae2edece6493f2fb67ec1909d57ac387269690b",
+  "rawSha256": "c40281473ea4c9ab626543786e74f0d795c3dee92c5677a34501fd7152e90b19",
+  "scope": "Finite exact identities and complete coefficient checks supporting separately reviewed uniform applications; no global theorem or optimality acceptance."
+}

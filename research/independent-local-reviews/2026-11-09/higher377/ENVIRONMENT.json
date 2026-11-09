@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "head": "75e7630341e0722aca7bca414e10b6ff003ba498",
+  "model": "Codex/GPT-6 family per supplied agent configuration; exact deployed model identifier, inference settings and immutable session identifier are not exposed and are not independently attested.",
+  "taskIdentity": "/root/independent_math_review",
+  "independence": "Separate non-author task identity; inference and complete coefficient checks independently derived. Shared model/tool risks remain. No further agents used.",
+  "availableAndUsedTools": "Local shell through functions.exec, Python standard library, Node, filesystem reads; apply_patch only for reviewer-owned files; parent collaboration messages. No external App or designated protocol audit invoked.",
+  "python": "3.12.3",
+  "node": "v18.19.1",
+  "command": "python3 -B research/higher-order-variant/reproduce.py --output /tmp/quartic-higher377-review/replay",
+  "workingTree": "/tmp/codex-glazer389-review-3j08z564/higher377",
+  "independentScripts": "Standard-library Python; no author checker imports in independent_checks.py. Reuses this reviewer's earlier polynomial helpers and conic/diagonal checking method, with new Laurent-power and scalar-row checks. Absolute original paths are historical evidence; adapt paths when replaying an archived copy.",
+  "harnessNote": "The first reviewer-check invocation used a guessed scalar inverse residual name ending in .inverse. It stopped with KeyError; the reviewer inspected the actual name .definition, corrected the local harness and reran the whole check successfully. No author source or mathematical result changed.",
+  "encoding": "UTF-8/LF for new review records; source and original archive hashes preserve bytes without normalization.",
+  "authorReplayTools": "Python standard library and Node; no optimization package required.",
+  "portability": "One local platform; remote CI/public readback reported by the integrator is not independently attested by this review."
+}
