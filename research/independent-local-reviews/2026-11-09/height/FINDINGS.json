@@ -1,0 +1,76 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "reviewStarted": "2026-11-08",
+  "reviewCompleted": "2026-11-09",
+  "decision": "accepted-within-stated-conditional-local-scope",
+  "commit": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+  "initialReviewedCommit": "9cfaaa10d39e18d3d6e91c020d134d22e28876ab",
+  "parentCommit": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
+  "sourceBindingSha256": "32f6e616fa457bb60405e3491817ecd8f0ce34f081040e746509bcbf52405e93",
+  "proofSha256": "5a4ff818479f28dfb988526cbcac89b9f6fdb264fe7e9f999123fe0547d45029",
+  "contractSha256": "ef4bae3f51159d4f83ebf7db8e078153575279c39e173fd13894e9ca96f48857",
+  "parentToFinalDiffSha256": "bfe5591004b81be4fe590ae9faff41e765a0f17d05d6bc12ecd5e5c49ab5c8da",
+  "finalClarificationDiffSha256": "ea67784d5fe71a7e0ef2f3e32b3ae1a026d5a081b802c40c7418b37e8318ad82",
+  "mathematicalDecision": "Current-exponent projective transfer, uniform Lucas endpoint contradiction, both scalar margins, exact final input inequality and enlarged-anchor completeness transfer accepted relative to the named inherited inputs.",
+  "nineObligations": {
+    "source_hypotheses": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "constructed_objects": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "domain_and_index_coverage": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "transition_maps": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "consumed_object_identity": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "conventions": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "local_conditions": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "exceptional_cases": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md",
+    "downstream_consumers": "accepted within scope; see explicit derivations and actual-source comparisons in REPORT.md"
+  },
+  "findings": [
+    {
+      "id": "private-anchor-gate-reevaluation",
+      "type": "exposition-and-consumer-identity",
+      "status": "resolved-and-final-binding-acknowledged",
+      "initialScope": "Completeness keeps old actual roots and H but changes the fixed anchor parameter.",
+      "clarification": "Final proof and contract explicitly reevaluate anchor.physicalA at new S, supply conic witnesses for that value and apply the witness translation with new S.",
+      "historicalDisposition": "The gate formula and varying-anchor equivalence already supplied this step; no new arithmetic repair was authored by the reviewer.",
+      "verification": "Actual raw IR shows physicalA only in its definition and anchor row, the three witnesses only in the anchor row, and no other parameter-dependent rows.",
+      "manuscriptDisposition": "pending"
+    }
+  ],
+  "materialMathematicalObjectionsWithinScope": [],
+  "measuredResults": [
+    {
+      "order": 45,
+      "anchorExponent": 2118,
+      "coordinates": 380,
+      "residuals": 349,
+      "monomials": 26025,
+      "maximumCoefficient": "28902*3^1412",
+      "maximumDigits": 679,
+      "maximumBits": 2253,
+      "tableSha256": "a194dd94682d4e458d0e03407e39aea056a6626014210c384b3a9c80f19a43e6"
+    },
+    {
+      "order": 47,
+      "anchorExponent": 2010,
+      "coordinates": 383,
+      "residuals": 352,
+      "monomials": 26043,
+      "maximumCoefficient": "28902*3^1340",
+      "maximumDigits": 644,
+      "maximumBits": 2139,
+      "tableSha256": "d2e9856dcbd752a156548e37545f48ed8e1e8d263c5b374aad5a19f44f8eab6f"
+    }
+  ],
+  "remainingObligations": [
+    "Inherited global arithmetic inputs and published-source coverage retain existing qualifications.",
+    "Current-manuscript incorporation, Kato/current-source integration, attribution questions and full assembled-proof closure remain open.",
+    "The historical stdout incident root cause remains unresolved.",
+    "The archived diagonal LP/dual claim is unreviewed and not a dependency; no decision on its validity is made here.",
+    "Public readback, later review reconciliation and the designated App exact-revision check remain separate.",
+    "No general parameter/circuit optimum, human peer review or official release designation is asserted."
+  ],
+  "handoffScopeAccepted": true,
+  "currentManuscriptAcceptance": false,
+  "designatedAppAuthorization": false,
+  "report": "REPORT.md"
+}

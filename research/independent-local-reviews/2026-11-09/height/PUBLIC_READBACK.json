@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "Author public ref, source manifest and downloaded CI artifact readback; not mathematical acceptance.",
+  "date": "2026-11-09",
+  "head": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+      "isDraft": true,
+      "number": 16,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/16"
+    },
+    {
+      "baseRefName": "proposal/quartic-380-cubic-reuse",
+      "baseRefOid": "31563264ba3dfbc3f00b4b08c099e9380caacd42",
+      "headRefOid": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+      "isDraft": true,
+      "number": 5,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/5"
+    }
+  ],
+  "manifestSha256": "32f6e616fa457bb60405e3491817ecd8f0ce34f081040e746509bcbf52405e93",
+  "ciRun": 42537807726,
+  "tables": [
+    {
+      "order": 45,
+      "artifact": "height-consumers-order-45/quartic-380-balanced-decimal.txt",
+      "sha256": "a194dd94682d4e458d0e03407e39aea056a6626014210c384b3a9c80f19a43e6",
+      "bytes": 1025094
+    },
+    {
+      "order": 47,
+      "artifact": "height-consumers-order-47/quartic-383-balanced-decimal.txt",
+      "sha256": "d2e9856dcbd752a156548e37545f48ed8e1e8d263c5b374aad5a19f44f8eab6f",
+      "bytes": 1021849
+    }
+  ]
+}

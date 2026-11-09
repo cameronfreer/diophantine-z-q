@@ -1,0 +1,50 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "completionDate": "2026-11-09",
+  "initialSourceCommit": "9cfaaa10d39e18d3d6e91c020d134d22e28876ab",
+  "finalSourceCommit": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+  "pythonVersion": "3.12.3",
+  "nodeVersion": "18.19.1",
+  "replays": [
+    {
+      "order": 45,
+      "command": "python3 -B research/height-consumer-refinement/reproduce.py --order 45 --output /tmp/quartic-height-review/order45",
+      "exitCode": 0,
+      "files": {
+        "baseline/builder.cjs": "69d58bca762914a4e7ddceb93794c5a69c0eb3d7228ac9de4c8efaece73b2c3d",
+        "baseline/raw-translated-ir.json": "49f2748054378ea831d278d4832a318a2ab6057ccfcdfaccc233ac933db75156",
+        "builder.cjs": "e912a1c38dcb03d14bd24fe31cb027c3c65fa767c0da456256bebdf66315dcdb",
+        "raw-translated-ir.json": "f1dee3d1e5521e359518d07d7748bdfa2d9204eb810ba37e495838c918d5192b",
+        "MEASURED.json": "4f56342b50f82a809050695aba2989071ba835cb279dfebaca3c888eafdb3461",
+        "height-check.json": "62e793601874b0bae2cebb9c1a56d1f6ca7f7a47430679bf7b5320db3401a7d3",
+        "gate-check.json": "2bbf2272be8cb32eca3e9a012dbb6e10cf21a7552afc9e1d46f3443487b44a15",
+        "transport-check.json": "2c4cc6cf5e5cfaae0e72d5477d98efda9ff5b7ef665a0dc8bb6b1b7789a417a6",
+        "diagonal-check.json": "326bb5ddce6122334d6aebbd898b4efcc2cc735c4796c07b8277ff63a3fc5a18",
+        "balanced/summary.json": "4fe6e31b6d1954420c3a3fa785b408299157411c7b5b22dd725fef83c11ad87e",
+        "quartic-380-balanced-decimal.txt": "a194dd94682d4e458d0e03407e39aea056a6626014210c384b3a9c80f19a43e6"
+      },
+      "allStagesAndExpectedOutputsPassed": true
+    },
+    {
+      "order": 47,
+      "command": "python3 -B research/height-consumer-refinement/reproduce.py --order 47 --output /tmp/quartic-height-review/order47",
+      "exitCode": 0,
+      "files": {
+        "baseline/builder.cjs": "59939d232ac130c79ef0ca781cb2c2db217aa62baf6938b615b7270c7eea33a3",
+        "baseline/raw-translated-ir.json": "850099ea0a403718d39825c45f24dfabe5965656f1dd8363d4072d2a30522468",
+        "builder.cjs": "d74d5f1ee84f169b21ffdae6bd9bc7dbd6f056145e8b117174d9ccca80b02b16",
+        "raw-translated-ir.json": "0f38a762e8a6a56e7be4a853df6a93dbb7b27231f0c9ed217fa0e31a7404457b",
+        "MEASURED.json": "ba5859a1f29f1c093ef1db9068c0055e74d034a7be4527fab0be0c959e698cb8",
+        "height-check.json": "450455637192d174d7f48e10c10b1202e0ff84c1cb1415038708813949df3684",
+        "gate-check.json": "ad770571c3446374e6736e4581012acffb8a4b21ae4abdacbd5f9ed2e0ff3987",
+        "transport-check.json": "f358e1bc0c3c465502bead8fada7516d552d08374ad1cc26bb6366233d9f1891",
+        "diagonal-check.json": "eed7130ff82e642f80cf6a3c0684f4572053e4617577ba4b23f67446244ef641",
+        "balanced/summary.json": "8b5421dc6ad35494ad5d90a80ab8e28807cef5641f825c0ea219f87c5ea3772f",
+        "quartic-383-balanced-decimal.txt": "d2e9856dcbd752a156548e37545f48ed8e1e8d263c5b374aad5a19f44f8eab6f"
+      },
+      "allStagesAndExpectedOutputsPassed": true
+    }
+  ],
+  "finalBindingAcknowledgment": "Final head changes only proof, contract, findings and hashes to clarify private anchor reevaluation. All computational sources and expected outputs are unchanged; final 85-file binding independently verified against committed blobs.",
+  "scope": "Fresh local finite checks and separate final-binding acknowledgment; not global proof or remote CI attestation."
+}

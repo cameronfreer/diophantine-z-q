@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "encoding": "Exact bytes; authored text and JSON UTF-8 LF with final newline",
+  "coverage": "Independent report/findings/source bindings, independent check source/results, fresh replay receipts and finite-check reports. Large generated source/output trees and decimal tables are reproducible at their recorded hashes and are not selected for this review archive.",
+  "files": {
+    "REPORT.md": "f66c70170f4465bd6ff400d5b481752118f6174645ac3c17b116ad5d1e10e2db",
+    "FINDINGS.json": "45c6500db80c4e6338e36a06afe4116adae82656c290e3d549c6d65a60005007",
+    "SOURCE_HASHES.json": "90e48f2de9c7aa658777df2b8e2ad7d11b06a6989397606754998759c86d34a0",
+    "independent_checks.py": "b971c3b7e3d2a3c6c33feabfc1e424b842c2d6326e9a21609586dee7193a8a25",
+    "INDEPENDENT_CHECKS.json": "6237d4d21d52355e8a0ab942571ddfd8bacf6e5be5ef223925654cf50e906335",
+    "REPLAY_RECORD.json": "b195f1f74ea49bbf800cba8490e33ba8ff51843e4861e419fe1eb9ae33c979e4",
+    "AUDIT_SELF_TEST.json": "2eda32821f872ee3dd19c0a5949e7ecca829195f75c51f65c08847662ca11046",
+    "order45/MEASURED.json": "4f56342b50f82a809050695aba2989071ba835cb279dfebaca3c888eafdb3461",
+    "order45/height-check.json": "62e793601874b0bae2cebb9c1a56d1f6ca7f7a47430679bf7b5320db3401a7d3",
+    "order45/gate-check.json": "2bbf2272be8cb32eca3e9a012dbb6e10cf21a7552afc9e1d46f3443487b44a15",
+    "order45/transport-check.json": "2c4cc6cf5e5cfaae0e72d5477d98efda9ff5b7ef665a0dc8bb6b1b7789a417a6",
+    "order45/diagonal-check.json": "326bb5ddce6122334d6aebbd898b4efcc2cc735c4796c07b8277ff63a3fc5a18",
+    "order45/balanced/summary.json": "4fe6e31b6d1954420c3a3fa785b408299157411c7b5b22dd725fef83c11ad87e",
+    "order47/MEASURED.json": "ba5859a1f29f1c093ef1db9068c0055e74d034a7be4527fab0be0c959e698cb8",
+    "order47/height-check.json": "450455637192d174d7f48e10c10b1202e0ff84c1cb1415038708813949df3684",
+    "order47/gate-check.json": "ad770571c3446374e6736e4581012acffb8a4b21ae4abdacbd5f9ed2e0ff3987",
+    "order47/transport-check.json": "f358e1bc0c3c465502bead8fada7516d552d08374ad1cc26bb6366233d9f1891",
+    "order47/diagonal-check.json": "eed7130ff82e642f80cf6a3c0684f4572053e4617577ba4b23f67446244ef641",
+    "order47/balanced/summary.json": "8b5421dc6ad35494ad5d90a80ab8e28807cef5641f825c0ea219f87c5ea3772f"
+  }
+}
