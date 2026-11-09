@@ -309,11 +309,11 @@
     },
     {
       "path": "research/mixed-detector-normalization/EXPECTED.json",
-      "sha256": "edb3fdaa8a51e84cd41ae505f56cdbabf74790f6ebd8da2cb1bff2a5405ad8f8"
+      "sha256": "333bcd1807df3d8621844006e81b964b367543cca441452192a5523a1f74894f"
     },
     {
       "path": "research/mixed-detector-normalization/FINDINGS.json",
-      "sha256": "bbce5201cd6a9a1e08970444f42e39e88e884b447650f17f2bda338e21093be6"
+      "sha256": "e8f34f3b8517d360bdf45eaf71e6fa8c6155234263726aae6e4641c91f351bd6"
     },
     {
       "path": "research/mixed-detector-normalization/HANDOFF.md",
@@ -333,7 +333,7 @@
     },
     {
       "path": "research/mixed-detector-normalization/normalize_patch.py",
-      "sha256": "647753c8aa1dc7218250040d9469c42ac8d03f0184ef217c6c608037c589412d"
+      "sha256": "b880ad90746067adf5900e2b2d9286e4233789bf225f6f8e4feeb424d8dc759c"
     },
     {
       "path": "research/mixed-detector-normalization/reproduce.py",

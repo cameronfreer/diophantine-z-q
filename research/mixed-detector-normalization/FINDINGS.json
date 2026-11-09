@@ -51,6 +51,17 @@
       "evidence": [
         "HANDOFF.md"
       ]
+    },
+    {
+      "id": "generated-weight-comments",
+      "history": "The parent comment q45=q1*e^88 was correct before the new normalization; the mechanical label change made its generated q46 version stale. The old semantic-test comment also needed explicit mixed inputs.",
+      "packet": "Non-author reviewer identified the commentary issue. Author updated the patch to generate q46=e^91/delta^3 and exact low/high lemma-input comments. Removing line comments gives identical executable source; raw IR and table hashes remain bound unchanged. Final reviewer acknowledgment pending.",
+      "currentManuscript": "not affected",
+      "evidence": [
+        "normalize_patch.py",
+        "EXPECTED.json",
+        "PROOF.md"
+      ]
     }
   ]
 }
