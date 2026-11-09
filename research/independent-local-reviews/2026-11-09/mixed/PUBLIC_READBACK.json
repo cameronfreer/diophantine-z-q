@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Author public head/base, manifest, CI status and complete downloaded table readback; separate from mathematical acceptance.",
+  "date": "2026-11-09",
+  "head": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "isDraft": true,
+      "number": 17,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/17"
+    },
+    {
+      "baseRefName": "proposal/quartic-380-height-margins",
+      "baseRefOid": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+      "headRefOid": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "isDraft": true,
+      "number": 6,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/6"
+    }
+  ],
+  "manifestSha256": "6b887df56ffe26e86422d464b3a951a5e29e1166e49c7af005c93be1f015b629",
+  "ci": [
+    {
+      "conclusion": "success",
+      "databaseId": 42539713073,
+      "headSha": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "name": "Mixed detector normalization research replay",
+      "status": "completed",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/actions/runs/42539713073"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42539713337,
+      "headSha": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "name": "Research checks",
+      "status": "completed",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/actions/runs/42539713337"
+    }
+  ],
+  "table": {
+    "artifact": "mixed-normalization-380/quartic-380-balanced-decimal.txt",
+    "sha256": "995c84c33620e8a407a4d83b5c79fb864187874460a218e18ce25c5f8877e796",
+    "bytes": 1021524
+  },
+  "initialReadback": "INITIAL_PUBLIC_READBACK.json retains the earlier pre-comment-correction head."
+}

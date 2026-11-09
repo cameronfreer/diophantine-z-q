@@ -1,0 +1,83 @@
+{
+  "format": "reviewer-findings-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "initialHead": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+  "finalHead": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "items": [
+    {
+      "id": "MIXED-01",
+      "severity": "application requiring fresh review",
+      "status": "accepted_within_conditional_local_scope",
+      "issue": "Different weights change W, reciprocal trace and Bpole; prior projection equivalence cannot justify this route.",
+      "historicalArgument": "Actual v10 arbitrary-order one-place proof, round4 pole-domain extension and round5/7 normalization derivations read.",
+      "resolution": "The actual inputs are D/delta^m at m=1,12 and D/delta^47 at m=46. Contact units, integral valuations and the same max-place proof give all sixteen orders at one common place. Circuit Bpole equals R/Tr(W^-1)^2 exactly.",
+      "evidence": [
+        "REPORT.md",
+        "INDEPENDENT_CHECKS.json",
+        "SOURCE_EXCERPTS.json"
+      ]
+    },
+    {
+      "id": "MIXED-02",
+      "severity": "application requiring fresh review",
+      "status": "accepted_within_conditional_local_scope",
+      "issue": "New pole witnesses need successful/opposite contact, denominator parity, squareclasses, real size and small-prime depths simultaneously.",
+      "resolution": "Original fixed-data choice order allows strengthened real/finite lower bounds before contact-prime selection. High weights decay as lambda^-3 and have valuation 3nu+452s. The parent optional primary depth47 exceeds the new depth46 requirement; scalar real/finite conditions remain satisfied by the actual final H. New pole witnesses are supplied.",
+      "evidence": [
+        "REPORT.md",
+        "SOURCE_EXCERPTS.json"
+      ]
+    },
+    {
+      "id": "MIXED-03",
+      "severity": "changed downstream application",
+      "status": "accepted_within_conditional_local_scope",
+      "issue": "The new gate provides order46, while the parent small-anchor alternative selected order47.",
+      "resolution": "The actual precision51 tail and all identity/integrality branches support46. The new exact Lucas endpoint at E2010 passes with uniform ratio exponent636. Scalar and order12 input margins also pass. No47 output is assumed.",
+      "evidence": [
+        "REPORT.md",
+        "INDEPENDENT_CHECKS.json"
+      ]
+    },
+    {
+      "id": "MIXED-04",
+      "severity": "minor documentation defect",
+      "status": "resolved_by_author_and_independently_verified",
+      "firstObservedHead": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+      "location": "Generated builder weight and semantic-input comments",
+      "issue": "The mechanical label rename produced the false comment q46=q1*e^88 and retained an ambiguous old semantic-input comment. Executable equations and proof were correct.",
+      "resolutionHead": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "resolution": "Author patch now emits q46=e^91/delta^3 and the exact mixed normalized inputs. Only three standalone comment lines in generated JS change; all noncomment lines are byte-identical. Reviewer fresh final Node output matches earlier full-replay IR.",
+      "evidence": [
+        "SOURCE_HASHES.json",
+        "freeze_sources.py",
+        "REPORT.md"
+      ]
+    },
+    {
+      "id": "MIXED-05",
+      "severity": "finite verification and representation",
+      "status": "verified",
+      "issue": "Exact polynomial, variable count and generated-artifact claims require full verification.",
+      "resolution": "Fresh full replay and reviewer-owned independent row/diagonal/full-table reconstruction give380 coordinates,349 rows,26025 monomials,max28902*3^1340,644 digits. Source is a deterministic generator with exact full-table hashes; no committed full expansion is claimed for the author packet.",
+      "evidence": [
+        "INDEPENDENT_CHECKS.json",
+        "replay/MEASURED.json",
+        "replay/balanced/summary.json"
+      ]
+    },
+    {
+      "id": "MIXED-06",
+      "severity": "inherited scope limitations",
+      "status": "open_outside_local_acceptance",
+      "issue": "Global arithmetic/published-source closure, Kato/current-source integration, current-manuscript incorporation and historical stdout root cause remain unresolved in the cumulative record. Public readback and designated App authorization are separate duties.",
+      "resolution": "Retained explicitly; this review closes none of these obligations. Negative searches and archived LP/dual are not newly accepted or used as dependencies.",
+      "evidence": [
+        "REPORT.md",
+        "SOURCE_HASHES.json"
+      ]
+    }
+  ]
+}

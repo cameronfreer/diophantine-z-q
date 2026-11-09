@@ -1,0 +1,9 @@
+{
+  "python": "3.12.3",
+  "node": "v18.19.1",
+  "reviewScripts": "Python3 -B with standard-library imports; independent_checks.py imports no author checker",
+  "authorReplay": "python3 -B research/mixed-detector-normalization/reproduce.py --output /tmp/quartic-mixed-review/replay",
+  "initialReplayHead": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+  "finalCommentRebuildHead": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "encoding": "UTF-8; newly authored review JSON/Markdown uses LF; source excerpt hashes preserve original bytes"
+}

@@ -1,0 +1,31 @@
+{
+  "format": "reviewer-source-bound-decision-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "decision": "accept_conditional_local_application_and_measurement",
+  "head": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "parent": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+  "proofSha256": "3dfb7eb74c10358744a41c4c7bfa36d154fae149f6748e3082fa6013c11b2abd",
+  "applicationContractSha256": "1ac61dfe4b5e4e14cc5a8dace1fd9178d62299a4d522734edc9695a4b7aad7a1",
+  "sourceBindingManifestSha256": "6b887df56ffe26e86422d464b3a951a5e29e1166e49c7af005c93be1f015b629",
+  "reportSha256": "a4214c4c1ff51602f239b7e951bf4165ca866accd588573284e95573d8e9b4e3",
+  "findingsSha256": "38d3322cdcca7d9df2589aea19a99027829e1f51dab1aadb5abb3ebd0c170d85",
+  "sourceHashesSha256": "af8853465b202cee2c49152bc37ae6e69f3559948c659561f2af0ee0ac064630",
+  "independentChecksSha256": "bd79b8ce770c475e7292a46a1bf2a895f7f0e7bb439428aac3ff971bdcd3c190",
+  "scope": "New mixed normalization and every affected local soundness/completeness/logarithm/height consumer; full finite coefficient specification; cumulative conditional non-release handoff scope.",
+  "notClaimed": [
+    "unconditional global theorem",
+    "published-source closure",
+    "current-manuscript incorporation",
+    "human peer review",
+    "optimality",
+    "independent public-destination readback",
+    "designated App authorization",
+    "repository acceptance-register update"
+  ],
+  "nineApplicationObligations": "addressed for the declared conditional local scope; see report obligation table",
+  "unresolvedMaterialLocalObjections": 0,
+  "correctedMinorFinding": "MIXED-04 retained in findings",
+  "earlierReviewsPreserved": true
+}

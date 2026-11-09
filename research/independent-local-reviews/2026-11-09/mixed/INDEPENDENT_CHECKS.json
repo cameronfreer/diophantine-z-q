@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "noAuthorCheckerImports": true,
+  "baselineMatchesEarlierIndependentHeightReplay": true,
+  "outsideRowsGuardsAndAliasesUnchangedAfterExplicitOrderRename": true,
+  "identityCaveat": "Formal coordinate expressions are unchanged; the changed weight changes evaluated W, trace and pole input. No witness projection equivalence is asserted.",
+  "changedRawRows": [
+    "detector0.q45.definition",
+    "detector1.q45.definition",
+    "detector2.q45.definition"
+  ],
+  "weightBlocks": [
+    {
+      "detector": 0,
+      "order": 45,
+      "exactConstraint": "q1^3*q45=q1^92*delta^88"
+    },
+    {
+      "detector": 0,
+      "order": 46,
+      "exactConstraint": "q1*q46=q1^92*delta^88"
+    },
+    {
+      "detector": 1,
+      "order": 45,
+      "exactConstraint": "q1^3*q45=q1^92*delta^88"
+    },
+    {
+      "detector": 1,
+      "order": 46,
+      "exactConstraint": "q1*q46=q1^92*delta^88"
+    },
+    {
+      "detector": 2,
+      "order": 45,
+      "exactConstraint": "q1^3*q45=q1^92*delta^88"
+    },
+    {
+      "detector": 2,
+      "order": 46,
+      "exactConstraint": "q1*q46=q1^92*delta^88"
+    }
+  ],
+  "actualPoleInput": "R/Tr(W^-1)^2",
+  "actualOrderList": [
+    46,
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    12,
+    46,
+    46,
+    46,
+    46,
+    46
+  ],
+  "normalizationsAndLocalSlopes": [
+    {
+      "order": 1,
+      "deltaDenominatorInLemmaInput": 1,
+      "weightPowers": [
+        1,
+        -1
+      ],
+      "smallPrimeNuAndS": [
+        1,
+        4
+      ]
+    },
+    {
+      "order": 12,
+      "deltaDenominatorInLemmaInput": 12,
+      "weightPowers": [
+        23,
+        -1
+      ],
+      "smallPrimeNuAndS": [
+        1,
+        114
+      ]
+    },
+    {
+      "order": 46,
+      "deltaDenominatorInLemmaInput": 47,
+      "weightPowers": [
+        91,
+        -3
+      ],
+      "smallPrimeNuAndS": [
+        3,
+        452
+      ]
+    }
+  ],
+  "height": {
+    "order": 46,
+    "anchorExponent": 2010,
+    "HBits": 665,
+    "uniformRatioExponent": 636,
+    "scalarBitLengths": [
+      663782,
+      663505
+    ],
+    "lucasBitLengths": [
+      4689211,
+      4655664
+    ],
+    "inputGapAt301": "22/4775"
+  },
+  "allDiagonalRowsChecked": true,
+  "coordinates": 380,
+  "residuals": 349,
+  "monomials": 26025,
+  "degree": 4,
+  "content": 1,
+  "inputFixed": true,
+  "inputFourthCoefficient": 1,
+  "allCoordinatesActive": true,
+  "maximum": "28902*3^1340",
+  "maximumDigits": 644,
+  "maximumBits": 2139,
+  "tableSha256": "995c84c33620e8a407a4d83b5c79fb864187874460a218e18ce25c5f8877e796",
+  "rawSha256": "f6ac117625f054cf6fec0863f1a3417b0f5305a9e477e901e098387a6a6fac40",
+  "scope": "Finite identities, coefficient expansion and endpoint certificates supporting the independently read uniform arguments, not a global arithmetic proof."
+}

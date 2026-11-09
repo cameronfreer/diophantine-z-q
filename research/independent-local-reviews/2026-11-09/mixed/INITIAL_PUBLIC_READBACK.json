@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Author public refs, published source manifest and complete downloaded CI table readback; not mathematical acceptance.",
+  "date": "2026-11-09",
+  "head": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+      "isDraft": true,
+      "number": 17,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/17"
+    },
+    {
+      "baseRefName": "proposal/quartic-380-height-margins",
+      "baseRefOid": "59c59e5589d86036ee41994c82a2b900fce85c2d",
+      "headRefOid": "6b4c2b58c871e35dada6bd15cd359b863e45838f",
+      "isDraft": true,
+      "number": 6,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/6"
+    }
+  ],
+  "manifestSha256": "1fb41c8a9507fa314ab9303a8e3d26c56f31edc4774902ff6f63eb5300b68409",
+  "ciRun": 42539240585,
+  "table": {
+    "artifact": "mixed-normalization-380/quartic-380-balanced-decimal.txt",
+    "sha256": "995c84c33620e8a407a4d83b5c79fb864187874460a218e18ce25c5f8877e796",
+    "bytes": 1021524
+  }
+}

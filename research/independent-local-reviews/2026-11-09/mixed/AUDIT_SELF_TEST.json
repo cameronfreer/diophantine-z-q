@@ -1,0 +1,13 @@
+{
+  "command": "python3 -B scripts/check_audit_history.py --self-test",
+  "workingTree": "/tmp/codex-glazer389-review-3j08z564/mixed",
+  "head": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "exitCode": 0,
+  "observedOutput": [
+    "PASS: 9 historical dispositions, evidence pins and manuscript passages. Not a mathematical proof check.",
+    "PASS: 7 negative controls rejected.",
+    "PASS: 19 application-review negative controls rejected.",
+    "PASS: 3 current application contracts, revision and follow-up records. Not a proof check."
+  ],
+  "scope": "Observed final source self-test; not independent mathematical proof or registration of this review."
+}
