@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "python": "3.12.3",
+  "node": "v18.19.1",
+  "command": "python3 -B research/scalar-row-reduction/reproduce.py --output /tmp/quartic-row379-review/replay",
+  "workingTree": "/tmp/codex-glazer389-review-3j08z564/row379",
+  "head": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+  "independentScripts": "Standard-library Python only; no author checker imports in independent_checks.py. Reviewer scripts record original absolute worktree/replay paths as historical evidence; adapt those paths when rerunning an archived copy.",
+  "encoding": "UTF-8/LF for new review records; source and archived original hashes preserve original bytes without whitespace normalization.",
+  "authorReplayTools": "Python standard library and Node; no optimization package or floating-point search required."
+}

@@ -1,0 +1,31 @@
+{
+  "format": "reviewer-source-bound-decision-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "decision": "accept_conditional_local_projection_equivalence_and_measurement",
+  "head": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+  "parent": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+  "proofSha256": "b64c429a02bdb083182ede492cfb67f902e487585f5eca4eeb28dd353ffc320e",
+  "applicationContractSha256": "b6bc8327a0b30c275b9204f34966ef3ee9b8541abf91ad4d033930e664d63997",
+  "sourceBindingManifestSha256": "18a701c1d456e6aa9893b6d26be3f30ef12264f267b26de457ffb4bbac7edc7a",
+  "diagonalWeightsSha256": "c42701d73785edc50c2e6622b2dc62af7e2bc05a95efff7d413dde2e403a1e32",
+  "reportSha256": "ad1217cd42d34a1df653f83a96ed37e7124aa0d22e5fd5d6cd82f54e487e6744",
+  "findingsSha256": "7e04874cf475e8f520095f6af5dcdc80c425bde94d3af700c2a888850cc9e08e",
+  "sourceHashesSha256": "4734e4ea630c6b4bc9a345353131d25fb8b6c7bd99c906cd2e1bb7f94908fa7b",
+  "independentChecksSha256": "b0cbb33a29e893587fdb608b08de9d8478871a2b528df5066f2f84a3ef6a587d",
+  "scope": "First layer only: exact A and tri source maps, actual conic compilation/transport, fixed35-coordinate diagonal map and complete379-variable425-digit table; cumulative conditional non-release handoff scope.",
+  "nineApplicationObligations": "Addressed in the reviewed scope; see report table.",
+  "unresolvedMaterialLocalObjections": 0,
+  "notClaimed": [
+    "unconditional global arithmetic theorem",
+    "current-manuscript incorporation",
+    "full published-source closure",
+    "human peer review",
+    "optimality",
+    "acceptance of archived tau/B/C/dropped-test or future detector/scalar routes",
+    "independent public-destination readback",
+    "designated App authorization",
+    "repository acceptance-register update"
+  ]
+}

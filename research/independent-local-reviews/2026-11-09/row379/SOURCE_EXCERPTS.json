@@ -1,0 +1,186 @@
+{
+  "hashAlgorithm": "SHA-256",
+  "rule": "1-based inclusive original byte lines, splitlines(keepends=True); no whitespace/newline normalization",
+  "sources": [
+    {
+      "path": "research/conditional-quartic-reduction/proofs/prior/round5/geometry_round5.tex",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "3d5f0fff2fc45bd2b7504c933a8583367555d10e78a18b9885c2d01a151261bb",
+      "lineStart": 100,
+      "lineEnd": 250,
+      "locator": "Fused shifted chart, guard and two-place proxy",
+      "excerptSha256": "cd8c8fdd9f010cd0f5153d1339c45770aa480c8210877052b08a1d96d1200868"
+    },
+    {
+      "path": "docs/manuscript-revisions/version13/addition.tex",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "91b278b3ca1684df93e32883d8046a2accda970efc1ed9159b095183092d5a09",
+      "lineStart": 595,
+      "lineEnd": 615,
+      "locator": "Earlier factored-pole argument and zero branch",
+      "excerptSha256": "b22d259f773e7a1337335a297033e5fc24e37a5c9dcc774b0967742ba717d977"
+    },
+    {
+      "path": "AGENTS.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "8962f442f897f69d6f001a589eeae22881bda75b77f1b77e7f30f3b7d50e0bfb",
+      "lineStart": 1,
+      "lineEnd": 9,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "8962f442f897f69d6f001a589eeae22881bda75b77f1b77e7f30f3b7d50e0bfb"
+    },
+    {
+      "path": "docs/audit-history/PROTOCOL.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "c0b9834a75e64bfd66183b06d1e26019f957a38468ce41b10ce290f8c5c44816",
+      "lineStart": 1,
+      "lineEnd": 59,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "c0b9834a75e64bfd66183b06d1e26019f957a38468ce41b10ce290f8c5c44816"
+    },
+    {
+      "path": "docs/research-review/PROTOCOL.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "b5365b3d9cd9a782bf7fd0b6020403d5d400eac13dc7e60875484a8769d3d925",
+      "lineStart": 1,
+      "lineEnd": 322,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "b5365b3d9cd9a782bf7fd0b6020403d5d400eac13dc7e60875484a8769d3d925"
+    },
+    {
+      "path": "docs/release-policy.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "d9f5461cf3dca3de4c65328e0a1f89a1f15a174ef15956432e0a39fdfbad1c30",
+      "lineStart": 1,
+      "lineEnd": 13,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "d9f5461cf3dca3de4c65328e0a1f89a1f15a174ef15956432e0a39fdfbad1c30"
+    },
+    {
+      "path": "research/scalar-row-reduction/PROOF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "b64c429a02bdb083182ede492cfb67f902e487585f5eca4eeb28dd353ffc320e",
+      "lineStart": 1,
+      "lineEnd": 175,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "b64c429a02bdb083182ede492cfb67f902e487585f5eca4eeb28dd353ffc320e"
+    },
+    {
+      "path": "research/scalar-row-reduction/APPLICATION_CONTRACT.json",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "b6bc8327a0b30c275b9204f34966ef3ee9b8541abf91ad4d033930e664d63997",
+      "lineStart": 1,
+      "lineEnd": 279,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "b6bc8327a0b30c275b9204f34966ef3ee9b8541abf91ad4d033930e664d63997"
+    },
+    {
+      "path": "research/scalar-row-reduction/HANDOFF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "bdf3252e3f918694a7af4735f90276bacb648b5ea2119b0419ed804adb2a44c6",
+      "lineStart": 1,
+      "lineEnd": 13,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "bdf3252e3f918694a7af4735f90276bacb648b5ea2119b0419ed804adb2a44c6"
+    },
+    {
+      "path": "research/mixed-detector-normalization/PROOF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "3dfb7eb74c10358744a41c4c7bfa36d154fae149f6748e3082fa6013c11b2abd",
+      "lineStart": 1,
+      "lineEnd": 240,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "3dfb7eb74c10358744a41c4c7bfa36d154fae149f6748e3082fa6013c11b2abd"
+    },
+    {
+      "path": "research/scalar-preparation-zero/PROOF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "79bb5a8c5ce16c6b4559848739aeb78b7d23eb4a90f2ff0ad8ccf97a3674280a",
+      "lineStart": 1,
+      "lineEnd": 234,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "79bb5a8c5ce16c6b4559848739aeb78b7d23eb4a90f2ff0ad8ccf97a3674280a"
+    },
+    {
+      "path": "research/factored-pole-reduction/PROOF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "364309a61432b4de3615852175cab0faa7a3aeb9d5d251f4da521454277198d4",
+      "lineStart": 1,
+      "lineEnd": 140,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "364309a61432b4de3615852175cab0faa7a3aeb9d5d251f4da521454277198d4"
+    },
+    {
+      "path": "research/height-consumer-refinement/PROOF.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "5a4ff818479f28dfb988526cbcac89b9f6fdb264fe7e9f999123fe0547d45029",
+      "lineStart": 1,
+      "lineEnd": 234,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "5a4ff818479f28dfb988526cbcac89b9f6fdb264fe7e9f999123fe0547d45029"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/codex-vetting/VETTING.txt",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "a045b03ef405e9019c5a4ee84376e861fcb89ce672a118c307b3724cc2f068de",
+      "lineStart": 1,
+      "lineEnd": 233,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "a045b03ef405e9019c5a4ee84376e861fcb89ce672a118c307b3724cc2f068de"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/coeffrows/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "314d20d9be1feb35f20c4c0168b37436e300b5586f1bb3d94a5a42066a920279",
+      "lineStart": 1,
+      "lineEnd": 94,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "314d20d9be1feb35f20c4c0168b37436e300b5586f1bb3d94a5a42066a920279"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/scalarpoles/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "c8503940c4036cff3dcff5b03c893e513f3405117ae055097591bda506a129f7",
+      "lineStart": 1,
+      "lineEnd": 55,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "c8503940c4036cff3dcff5b03c893e513f3405117ae055097591bda506a129f7"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/compose/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "cc58e998d0ec301b099027bfabe8b2fe530345a1688e750add77d01628b85c03",
+      "lineStart": 1,
+      "lineEnd": 59,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "cc58e998d0ec301b099027bfabe8b2fe530345a1688e750add77d01628b85c03"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/frontier/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "69a9ff385c7d10d988ada746a7fb181fa3942c1817047f4032e29dee935dce6e",
+      "lineStart": 1,
+      "lineEnd": 82,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "69a9ff385c7d10d988ada746a7fb181fa3942c1817047f4032e29dee935dce6e"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/weight47/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "74a8dbdc14f9a0d5f402ee06404feb1e58ee1a8f0c829156ac9c08d17c5a4aac",
+      "lineStart": 1,
+      "lineEnd": 62,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "74a8dbdc14f9a0d5f402ee06404feb1e58ee1a8f0c829156ac9c08d17c5a4aac"
+    },
+    {
+      "path": "research/scalar-row-reduction/prior-investigation/opus/blocks/NOTES.md",
+      "commit": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "wholeFileSha256": "6b871b8d9247f62640de71f229d70d0901420f6f1a34d43c24a4b1471b23360d",
+      "lineStart": 1,
+      "lineEnd": 78,
+      "locator": "Whole source; argument/consumer locators in report",
+      "excerptSha256": "6b871b8d9247f62640de71f229d70d0901420f6f1a34d43c24a4b1471b23360d"
+    }
+  ]
+}

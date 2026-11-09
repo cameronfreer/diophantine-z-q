@@ -1,0 +1,97 @@
+{
+  "format": "reviewer-findings-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "head": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+  "unresolvedMaterialLocalObjections": 0,
+  "authorChangesRequiredDuringReview": false,
+  "items": [
+    {
+      "id": "R379-01",
+      "classification": "exact row application",
+      "status": "accepted_within_conditional_local_scope",
+      "historicalDisposition": "Prior fused-chart argument and contributed A row edit found and read.",
+      "question": "Do the two changed numerator rows preserve the actual w and its entire chart/proxy/anchor domain?",
+      "resolution": "Reviewer derived the multipliers (-39/8,18) and (9/2,-39/4) from raw polynomial differences. Both defining xS=hS² rows remain, so the identity coordinate map gives equivalence over Q. No new denominator or chart branch.",
+      "consumer": "PROOF.md: A; unchanged shifted f(Q), Re(k_H*w), anchor and all detector functions.",
+      "evidence": [
+        "REPORT.md",
+        "INDEPENDENT_CHECKS.json",
+        "SOURCE_EXCERPTS.json"
+      ],
+      "manuscriptDisposition": "Pending; unchanged Version13."
+    },
+    {
+      "id": "R379-02",
+      "classification": "private witness transport",
+      "status": "accepted_within_conditional_local_scope",
+      "historicalDisposition": "Contributed tri and composed Bh rescaling evidence found; current normalization checked anew.",
+      "question": "Does replacing Z/T0 by physical T preserve Bh and the scalar conic?",
+      "resolution": "Derived mu=184460384539620 and mu(1+kL)=42r, verified both polynomial witness maps and complete second-conic equality. All private consumers scanned. Maps tolerate N/e zero and fix all outside coordinates; no inverse beyond retained r inverse and constant mu.",
+      "consumer": "PROOF.md: tri; scalar physical input42rN² and coefficient42r.",
+      "evidence": [
+        "REPORT.md",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; unchanged Version13."
+    },
+    {
+      "id": "R379-03",
+      "classification": "changed conic normalization",
+      "status": "accepted_within_conditional_local_scope",
+      "historicalDisposition": "Prior factored-conic source read, including positive zero branch.",
+      "question": "Do old conic templates apply to the actual newly compiled normalization?",
+      "resolution": "Independently derived all four current H encodings as17e-Bh, verified every lift row and outside consumer. Forward s=0 uses positive17bq²+3H²; reverse lift works for every s. Physical scalar input and conic coefficient distinguished.",
+      "consumer": "Actual current candidate-ir to final integer IR.",
+      "evidence": [
+        "REPORT.md",
+        "INDEPENDENT_CHECKS.json",
+        "replay/transport-check.json"
+      ],
+      "manuscriptDisposition": "Pending; unchanged Version13."
+    },
+    {
+      "id": "R379-04",
+      "classification": "finite coefficient representation",
+      "status": "verified",
+      "historicalDisposition": "Chosen fixed weights from exploratory search; no optimization claim accepted.",
+      "question": "Does the exact35-coordinate map preserve input and produce the complete claimed quartic?",
+      "resolution": "Fresh full replay plus reviewer-owned derivation of all348 primitive row identities and all26021 coefficients gives379 active coordinates, degree4, content1, input fourth coefficient1, max425 digits/1410bits. All factors/divisors are nonzero rationals.",
+      "consumer": "Complete table SHA50167c7f2873a2022c5c1c7dbff735eec097e9c7f60c6624c7abb0ff34cd37ec.",
+      "evidence": [
+        "INDEPENDENT_CHECKS.json",
+        "replay/MEASURED.json"
+      ],
+      "manuscriptDisposition": "Pending; unchanged Version13."
+    },
+    {
+      "id": "R379-05",
+      "classification": "historical coverage and attribution",
+      "status": "accepted_as_disclosed_archive_scope",
+      "historicalDisposition": "All208 selected archive entries match their originals byte-for-byte, including whitespace; six direction notes and vetting corrections read.",
+      "question": "Are original mistakes, negative evidence and unproved leads preserved with accurate scope?",
+      "resolution": "Originals retained; false W/trace invariance and broad chain-cost claims have explicit corrections. Tau sign example remains a diagnostic; B/C, dropped tests and Version13 speculation remain unresolved. These are not accepted mathematical dependencies of A/tri.",
+      "consumer": "HANDOFF.md, FINDINGS.json, prior-investigation/INVENTORY.json.",
+      "evidence": [
+        "REPORT.md",
+        "ARCHIVE_PROVENANCE.json",
+        "SOURCE_HASHES.json"
+      ],
+      "manuscriptDisposition": "Not incorporated or claimed."
+    },
+    {
+      "id": "R379-06",
+      "classification": "inherited and future obligations",
+      "status": "open_outside_this_local_acceptance",
+      "historicalDisposition": "Prior cumulative limitations preserved.",
+      "question": "Does this review close global/source/manuscript/publication or future-route obligations?",
+      "resolution": "No. Inherited global arithmetic, published-source closure, Kato/current-source integration, manuscript incorporation and stdout root cause remain open. Public readback and designated App authorization are separate. Subsequent detector/scalar layers require new review.",
+      "consumer": "HANDOFF.md and declared conditional non-release scope.",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "manuscriptDisposition": "Pending; current release unchanged."
+    }
+  ]
+}

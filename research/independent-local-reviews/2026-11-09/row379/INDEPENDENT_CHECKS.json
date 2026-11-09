@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "noAuthorCheckerImports": true,
+  "baselineMatchesEarlierIndependentMixedReplay": true,
+  "derivedARowMultipliers": [
+    [
+      "-39/8",
+      "18"
+    ],
+    [
+      "9/2",
+      "-39/4"
+    ]
+  ],
+  "derivedMu": "184460384539620",
+  "derivedK": "521079743268/81331739215",
+  "forwardAndReverseIdealIdentities": true,
+  "allPrivateConsumerRows": {
+    "old": {
+      "scalar.preparationT.quadratic": [
+        "scalar.Bh.definition",
+        "scalar.preparationT.definition"
+      ],
+      "scalar.W2.quadratic": [
+        "scalar.Bh.definition",
+        "scalar.W2.definition",
+        "scalar.preparationT.definition"
+      ],
+      "scalar.Bh.quadratic": [
+        "scalar.Bh.definition",
+        "scalar.secondConic"
+      ]
+    },
+    "new": {
+      "scalar.Bh.quadratic": [
+        "scalar.Bh.definition",
+        "scalar.secondConic"
+      ],
+      "scalar.preparationT": [
+        "scalar.Bh.definition",
+        "scalar.preparationT.definition"
+      ]
+    }
+  },
+  "changedRawRows": [
+    "scalar.Bh.definition",
+    "scalar.preparationT.definition",
+    "scalar.secondConic",
+    "scalar.shiftedS.rootTimesInverseRoot.definition.0",
+    "scalar.shiftedS.rootTimesInverseRoot.definition.1"
+  ],
+  "unchangedCommonRows": 358,
+  "guardsIdentical": true,
+  "testChartProxyAliasesIdentical": true,
+  "changedCommonAliases": [
+    "scalar.Bh",
+    "scalar.Bsemantic",
+    "scalar.preparationT"
+  ],
+  "fourConics": [
+    {
+      "prefix": "detector0",
+      "actualH": {
+        "detector0.normalized_e": "17",
+        "detector0.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector1",
+      "actualH": {
+        "detector1.normalized_e": "17",
+        "detector1.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector2",
+      "actualH": {
+        "detector2.normalized_e": "17",
+        "detector2.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "scalar",
+      "actualH": {
+        "scalar.normalized_e": "17",
+        "scalar.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    }
+  ],
+  "weights": {
+    "specifiedCoordinates": 35,
+    "ternaryScaled": 34,
+    "dyadicScaled": 9,
+    "inputFixed": true
+  },
+  "all348DiagonalRowIdentitiesChecked": true,
+  "allRowsPrimitive": true,
+  "completeExpansionAndTextCompared": true,
+  "coordinates": 379,
+  "residuals": 348,
+  "monomials": 26021,
+  "degree": 4,
+  "content": 1,
+  "allCoordinatesActive": true,
+  "inputFourthPowerCoefficient": 1,
+  "maximumAbsoluteCoefficient": "24134827293495785573172713707536673763810705931124871793777092121051156173165655563472255922419844304350052604810825882501598072542279686333622646720073740029446494817829888731841740569236375491864994493185993318563827115457687756919681537220015829060207822005401687211217531457577510208703506573957845955881040267281244011550338479294737251720220890645282929729896173975774292582062593885610580250022150660073425218679480801",
+  "maximumDigits": 425,
+  "maximumBits": 1410,
+  "tableSha256": "50167c7f2873a2022c5c1c7dbff735eec097e9c7f60c6624c7abb0ff34cd37ec",
+  "rawSha256": "40d54012e608282410c90e850637f71359c73321fc9762f64a7086347601fdc7",
+  "scope": "Exact rational algebra and finite measurements, supporting separately reviewed source-domain and zero-branch arguments; not global arithmetic acceptance."
+}

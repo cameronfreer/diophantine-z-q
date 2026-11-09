@@ -1,0 +1,39 @@
+{
+  "author": "Codex /root",
+  "date": "2026-11-09",
+  "scope": "Public destination readback, separate from mathematical review; draft flags recorded before ready transition.",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/18"
+    },
+    {
+      "baseRefName": "proposal/quartic-380-mixed-weights",
+      "baseRefOid": "eb00b7c9c5be2e8666c0403c750c6c780cf78563",
+      "headRefOid": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/7"
+    }
+  ],
+  "sourceManifestSha256": "18a701c1d456e6aa9893b6d26be3f30ef12264f267b26de457ffb4bbac7edc7a",
+  "runs": [
+    {
+      "id": 42548951140,
+      "conclusion": "success",
+      "headSha": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "status": "completed"
+    },
+    {
+      "id": 42548950923,
+      "conclusion": "success",
+      "headSha": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "status": "completed"
+    }
+  ],
+  "downloadedCompleteTableSha256": "50167c7f2873a2022c5c1c7dbff735eec097e9c7f60c6624c7abb0ff34cd37ec"
+}
