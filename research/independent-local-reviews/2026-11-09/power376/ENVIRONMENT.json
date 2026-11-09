@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "head": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+  "model": "Codex/GPT-6 family per supplied agent configuration; exact deployed model identifier, inference settings and immutable session identifier are not exposed and are not independently attested.",
+  "taskIdentity": "/root/independent_math_review",
+  "independence": "Separate non-author task identity; independently rederived inference and coefficient checks; shared model/tool risks remain. No further agents used.",
+  "availableAndUsedTools": "Local shell through functions.exec, Python standard library, Node, filesystem reads; apply_patch only for reviewer-owned files; parent collaboration messages. No external App or designated protocol audit check invoked.",
+  "python": "3.12.3",
+  "node": "v18.19.1",
+  "command": "python3 -B research/odd-power-detectors/reproduce.py --output /tmp/quartic-power376-review/replay",
+  "workingTree": "/tmp/codex-glazer389-review-3j08z564/power376",
+  "independentScripts": "Standard-library Python; independent_checks.py imports no author checker. It reuses this reviewer's earlier polynomial helpers and conic/diagonal check method. Original absolute paths are retained as historical evidence; adapt them when rerunning an archived copy.",
+  "harnessNote": "The reviewer script initially retained an old379 decimal-table filename. The reviewer corrected this local path to376 and reran the whole script successfully; no author source or mathematical result changed.",
+  "encoding": "UTF-8/LF for new review records; exact source/original archive bytes are hashed without normalization.",
+  "authorReplayTools": "Python standard library and Node; no optimization package required.",
+  "portability": "One local platform; no independent remote-CI/public artifact readback by this reviewer."
+}

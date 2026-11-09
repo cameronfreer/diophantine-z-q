@@ -1,0 +1,106 @@
+{
+  "format": "independent-local-review-findings-v1",
+  "reviewer": "/root/independent_math_review",
+  "reviewType": "independent internal AI review; not human peer review",
+  "date": "2026-11-09",
+  "head": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+  "unresolvedMaterialLocalObjections": 0,
+  "authorRepairsDuringReview": [],
+  "findings": [
+    {
+      "id": "IPOWER01",
+      "title": "All actual odd-power normalized inputs and common-place inference",
+      "historicalDisposition": "Prior components located; new connecting application independently reviewed",
+      "status": "accepted within conditional local scope",
+      "finding": "The actual m=1,12,46 factors equal R((D/delta^(2m-1))/R^m)^2. Unit delta at the retained contacts and the actual small-prime reapplication give all sixteen orders at one common place. The old large-prime statement is not used verbatim.",
+      "evidence": [
+        "REPORT.md: Soundness at one common place",
+        "SOURCE_EXCERPTS.json",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER02",
+      "title": "Original unchanged-W/trace/B assertion corrected",
+      "historicalDisposition": "Earlier exploratory assertion located and its later correction read",
+      "status": "corrected in the author proof before this review; original bytes retained",
+      "finding": "Only R and underlying field test functions are fixed. Both order-12 and order-46 weights change; W, reciprocal trace, detector B and private witnesses generally change. The new argument supplies fresh pole witnesses simultaneously. No arbitrary witness-tuple equivalence is accepted.",
+      "evidence": [
+        "REPORT.md: Exact sources and history",
+        "REPORT.md: Simultaneous completeness for the new pole inputs",
+        "ARCHIVE_PROVENANCE.json",
+        "research/scalar-row-reduction/prior-investigation/opus/frontier/NOTES.md",
+        "research/scalar-row-reduction/prior-investigation/codex-vetting/VETTING.txt"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER03",
+      "title": "Simultaneous complete pole hypotheses for the changed objects",
+      "historicalDisposition": "Prior fixed-data prime and scalar-preparation components located; changed decay application reviewed anew",
+      "status": "accepted within conditional local scope",
+      "finding": "Fixed scalar/real neighborhoods precede prime selection. The new weight slopes in nu are1,23,91, and real decay powers are-1,-23,-91. Contacts, opposite places, even valuations elsewhere, small-prime squareclasses and depth bounds, real(0,17), CRT and final H density meet the actual pole converse together.",
+      "evidence": [
+        "REPORT.md: Simultaneous completeness for the new pole inputs",
+        "SOURCE_EXCERPTS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER04",
+      "title": "Actual downstream consumers and exceptional branches",
+      "historicalDisposition": "Existing suppliers located and rechecked against current objects",
+      "status": "accepted within conditional local scope",
+      "finding": "All sixteen tests, both order12 inputs, all six order46 tests, primary identities, inert conjugation, precision51 including a13 and full tail, scalar31 proxy with both places above41, E2010 height margins and all four conic zero branches are covered.",
+      "evidence": [
+        "REPORT.md: Consumers and all exceptional branches",
+        "REPORT.md: Simultaneous completeness for the new pole inputs",
+        "INDEPENDENT_CHECKS.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER05",
+      "title": "Exact saving and complete published representation specification",
+      "historicalDisposition": "New implementation above the exact reviewed parent",
+      "status": "finite checks passed; connected to separately reviewed conditional arithmetic application",
+      "finding": "Fresh parent raw IR equals the earlier independent row379 replay. Three new short chains save three coordinates. All351 outside common rows/guards agree; every345 diagonal row,25964 coefficient and complete decimal table is reconstructed independently:376 active variables,425 digits,1410 bits.",
+      "evidence": [
+        "INDEPENDENT_CHECKS.json",
+        "replay/MEASURED.json",
+        "replay/power-check.json",
+        "replay/transport-check.json",
+        "replay/diagonal-check.json"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER06",
+      "title": "Historical archive, corrections and negative-result scope",
+      "historicalDisposition": "Original notes and actual later corrections located; prior verdicts preserved",
+      "status": "scope accepted; no optimality or unimplemented-route acceptance",
+      "finding": "All208 declared source archive entries and all20 selected parent review files match original bytes. Broad claims for all orders above46 were corrected by later constructive examples. The six-gate obstruction is restricted to its monomial model. Tau, B/C, dropped tests, later scalar47/order50 and other exploratory mathematics are outside this acceptance.",
+      "evidence": [
+        "ARCHIVE_PROVENANCE.json",
+        "SOURCE_HASHES.json",
+        "REPORT.md: Contract, handoff and remaining obligations"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    },
+    {
+      "id": "IPOWER07",
+      "title": "Conditional non-release scope and remaining global duties",
+      "historicalDisposition": "Inherited unresolved duties retained",
+      "status": "open outside this local decision",
+      "finding": "No below300 milestone is crossed and no current edition or artifact replacement is claimed. The current Version13 surfaces can remain unchanged. Full published-source/global/Kato integration, manuscript incorporation, historical stdout incident, actual public readback and designated App authorization remain separate duties.",
+      "evidence": [
+        "REPORT.md: Contract, handoff and remaining obligations",
+        "research/odd-power-detectors/HANDOFF.md",
+        "docs/research-review/PROTOCOL.md",
+        "docs/release-policy.md"
+      ],
+      "manuscriptDisposition": "Pending; current Version13 unchanged"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "author": "Codex /root",
+  "date": "2026-11-09",
+  "scope": "Public destination readback, separate from mathematical review; draft flags recorded before ready transition.",
+  "prs": [
+    {
+      "baseRefName": "main",
+      "baseRefOid": "9c0b3aba60d90fdcac82115f0582a6f52f1054f7",
+      "headRefOid": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/elliotglazer/diophantine-z-q/pull/19"
+    },
+    {
+      "baseRefName": "proposal/quartic-379-row-reduction",
+      "baseRefOid": "ce15e8ece219a2bb000075a5a79f6ffd9bea6dfd",
+      "headRefOid": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+      "isDraft": true,
+      "state": "OPEN",
+      "url": "https://github.com/cameronfreer/diophantine-z-q/pull/8"
+    }
+  ],
+  "sourceManifestSha256": "137cbe223f9ac68431d64952c22d5957befb80b64930307f7a539e0a1662e366",
+  "runs": [
+    {
+      "id": 42550211501,
+      "conclusion": "success",
+      "headSha": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+      "status": "completed"
+    },
+    {
+      "id": 42550211514,
+      "conclusion": "success",
+      "headSha": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+      "status": "completed"
+    }
+  ],
+  "downloadedCompleteTableSha256": "b2fe4f569707a9b548a3b9a8221e0b060bce83a2c03cd38f83791a30ed48b9c1"
+}

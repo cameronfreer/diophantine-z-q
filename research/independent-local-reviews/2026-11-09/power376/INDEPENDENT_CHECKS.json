@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "noAuthorCheckerImports": true,
+  "baselineMatchesEarlierIndependentRow379Replay": true,
+  "removedRows": [
+    "detector0.eCubed.definition",
+    "detector0.eSixth.definition",
+    "detector0.eTwelfth.definition",
+    "detector1.eCubed.definition",
+    "detector1.eSixth.definition",
+    "detector1.eTwelfth.definition",
+    "detector2.eCubed.definition",
+    "detector2.eSixth.definition",
+    "detector2.eTwelfth.definition"
+  ],
+  "addedRows": [
+    "detector0.q1Sixth.definition",
+    "detector0.q1Twelfth.definition",
+    "detector1.q1Sixth.definition",
+    "detector1.q1Twelfth.definition",
+    "detector2.q1Sixth.definition",
+    "detector2.q1Twelfth.definition"
+  ],
+  "changedRows": [
+    "detector0.q12.definition",
+    "detector1.q12.definition",
+    "detector2.q12.definition"
+  ],
+  "unchangedCommonRows": 351,
+  "rawCoordinateAndRowSaving": 3,
+  "commonFormalAliasesAndGuardsIdentical": true,
+  "identityCaveat": "Changed q12/q46 values change evaluated W, trace and pole input; only R and underlying tests are fixed.",
+  "actualChains": [
+    {
+      "detector": 0,
+      "powers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "q1Sixth": 6,
+        "q1Twelfth": 12,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 91,
+        "E46.power2": 182,
+        "E46.power3": 273
+      },
+      "actualRowsZeroIdentitiesOverQ[u]": true
+    },
+    {
+      "detector": 1,
+      "powers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "q1Sixth": 6,
+        "q1Twelfth": 12,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 91,
+        "E46.power2": 182,
+        "E46.power3": 273
+      },
+      "actualRowsZeroIdentitiesOverQ[u]": true
+    },
+    {
+      "detector": 2,
+      "powers": {
+        "q1SquaredForWeights": 2,
+        "q1CubedForWeights": 3,
+        "q1Sixth": 6,
+        "q1Twelfth": 12,
+        "q12": 23,
+        "mixedHigh": 46,
+        "q46": 91,
+        "E46.power2": 182,
+        "E46.power3": 273
+      },
+      "actualRowsZeroIdentitiesOverQ[u]": true
+    }
+  ],
+  "actualOrderList": [
+    46,
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    12,
+    46,
+    46,
+    46,
+    46,
+    46
+  ],
+  "actualPoleInput": "R/Tr(W^-1)^2",
+  "normalizations": [
+    {
+      "order": 1,
+      "deltaDenominatorInLemmaInput": 1,
+      "nuAndS": [
+        1,
+        4
+      ],
+      "realDecayPower": -1
+    },
+    {
+      "order": 12,
+      "deltaDenominatorInLemmaInput": 23,
+      "nuAndS": [
+        23,
+        92
+      ],
+      "realDecayPower": -23
+    },
+    {
+      "order": 46,
+      "deltaDenominatorInLemmaInput": 91,
+      "nuAndS": [
+        91,
+        364
+      ],
+      "realDecayPower": -91
+    }
+  ],
+  "precision": {
+    "a13": "-54756974/6936596275",
+    "uniformRelativeBound": 51,
+    "uniform52NotUsed": true
+  },
+  "height": {
+    "anchorExponent": 2010,
+    "scalarOrder": 31,
+    "highOrder": 46,
+    "inputOrder": 12,
+    "uniformLucasRatioExponent": 636,
+    "inputGapAt301": "22/4775"
+  },
+  "fourConics": [
+    {
+      "prefix": "detector0",
+      "actualH": {
+        "detector0.normalized_e": "17",
+        "detector0.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector1",
+      "actualH": {
+        "detector1.normalized_e": "17",
+        "detector1.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "detector2",
+      "actualH": {
+        "detector2.normalized_e": "17",
+        "detector2.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    },
+    {
+      "prefix": "scalar",
+      "actualH": {
+        "scalar.normalized_e": "17",
+        "scalar.Bh.quadratic": "-1"
+      },
+      "liftRowFactors": {
+        ".Bh.definition": "-1",
+        ".q2.definition": "1",
+        ".secondConic": "-1"
+      },
+      "allPrivateConsumersChecked": true,
+      "zeroBranch": "17*b*q^2+3*H^2=0 with b>0; choose v=Q=Q2=0"
+    }
+  ],
+  "all345DiagonalRowIdentitiesChecked": true,
+  "weights": {
+    "specified": 35,
+    "ternary": 35,
+    "dyadic": 9,
+    "inputFixed": true
+  },
+  "coordinates": 376,
+  "residuals": 345,
+  "monomials": 25964,
+  "degree": 4,
+  "content": 1,
+  "allCoordinatesActive": true,
+  "inputFourthPowerCoefficient": 1,
+  "completeExpansionAndTextCompared": true,
+  "maximumAbsoluteCoefficient": "24134827293495785573172713707536673763810705931124871793777092121051156173165655563472255922419844304350052604810825882501598072542279686333622646720073740029446494817829888731841740569236375491864994493185993318563827115457687756919681537220015829060207822005401687211217531457577510208703506573957845955881040267281244011550338479294737251720220890645282929729896173975774292582062593885610580250022150660073425218679480801",
+  "maximumDigits": 425,
+  "maximumBits": 1410,
+  "tableSha256": "b2fe4f569707a9b548a3b9a8221e0b060bce83a2c03cd38f83791a30ed48b9c1",
+  "rawSha256": "4c38160e31788986174a9791d5d71c1135016ebf39dd7d940b8225277765dd35",
+  "scope": "Finite exact identities and measurements supporting separately reviewed uniform arithmetic applications; no global theorem acceptance."
+}

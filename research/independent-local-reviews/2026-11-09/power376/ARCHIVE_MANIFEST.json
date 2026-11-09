@@ -1,0 +1,110 @@
+{
+  "format": "independent-review-archive-manifest-v1",
+  "reviewer": "/root/independent_math_review",
+  "date": "2026-11-09",
+  "head": "32abb654ec295e28b51f92a51d7f12d4c5a626ec",
+  "hashAlgorithm": "SHA-256",
+  "coverage": "Exact selected review archive: report, findings, decision, source/excerpt/original-provenance bindings, independent scripts, environment, audit output and finite replay receipts. Large generated builder/IR/polynomial/decimal files and raw replay logs remain in the local replay directory and are not claimed as archived payload here; their hashes and complete deterministic source-driven reproduction are retained in the selected records. All prior review originals are preserved.",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "1123e986220bd5f3d895c45c88d6da1a3dcd13b91b8eedee86c1c1d7d60ab427",
+      "bytes": 20740
+    },
+    {
+      "path": "FINDINGS.json",
+      "sha256": "b3539b1e1fb80f6c213e74aadfde129540f070c3aaa2e083bfca765093548bfb",
+      "bytes": 6483
+    },
+    {
+      "path": "DECISION.json",
+      "sha256": "d7ebc11594d438c24c5c68c8b4d444735fd1639eb3bb3dad0b029a0d186516f1",
+      "bytes": 2212
+    },
+    {
+      "path": "SOURCE_HASHES.json",
+      "sha256": "7def961125ecad64a16e3b0e937b1bb1b64d74e198a881408efb685fa9f8b1f4",
+      "bytes": 70896
+    },
+    {
+      "path": "SOURCE_EXCERPTS.json",
+      "sha256": "e6dec25f971d0444f0a5ab3b59553eb6aa1fa7f89d5e17545680e370596180a6",
+      "bytes": 12923
+    },
+    {
+      "path": "ARCHIVE_PROVENANCE.json",
+      "sha256": "3943033490dbac1620028b2663f689e0c2d6a9f36a65cd1d342e4891ffe57044",
+      "bytes": 98323
+    },
+    {
+      "path": "INDEPENDENT_CHECKS.json",
+      "sha256": "7cb6cb538c3a4e47f70b0f03f3d7cce1fc0171a96353c43494c3a5188ae52faa",
+      "bytes": 5851
+    },
+    {
+      "path": "ENVIRONMENT.json",
+      "sha256": "be5c77880915b8927e695893d0648f486ebdf94ca04b2be16eb1faa2cd227cbd",
+      "bytes": 1941
+    },
+    {
+      "path": "independent_checks.py",
+      "sha256": "45296661b962ca07348e68fb1a0d643035ff77d5e04830236c96120ab07153f3",
+      "bytes": 14607
+    },
+    {
+      "path": "freeze_sources.py",
+      "sha256": "aaf93d71c6fbeb1498da8708c9e3bf4cdf20fe24c16f0cd9f2249e00092113f5",
+      "bytes": 6569
+    },
+    {
+      "path": "audit-self-test.log",
+      "sha256": "7539e0a83103f2656b233dcf98570fb769e636973f4765cd48f04b87a7d5ee0d",
+      "bytes": 286
+    },
+    {
+      "path": "replay/MEASURED.json",
+      "sha256": "3e82e7253cd75d4e19f8e5ea24d8a498af4cb333e4d279c30d2974711bcb87a6",
+      "bytes": 1840
+    },
+    {
+      "path": "replay/power-check.json",
+      "sha256": "4e0ffc22c37b7e867437346e1befcf47f0d851a156dc44fee63c9b38cc7f8e53",
+      "bytes": 2837
+    },
+    {
+      "path": "replay/gate-check.json",
+      "sha256": "1b5bc471ff560104326676373fa49c982d565eea646d3047dd18ce72cdd3c62c",
+      "bytes": 55756
+    },
+    {
+      "path": "replay/transport-check.json",
+      "sha256": "62a18324237ebbb60e432a78c3108e6afcaeeaeed05d52ab03de8da236676e0b",
+      "bytes": 1713
+    },
+    {
+      "path": "replay/diagonal-check.json",
+      "sha256": "ecd72ceb8afcbffb4fdcf4d886bda6b9b3196e9d47b695e4f53f104918f21d86",
+      "bytes": 4915
+    },
+    {
+      "path": "replay/balanced/summary.json",
+      "sha256": "afe83469b699705382176aae82057241b339150694d9587c40e4cd660103bd7a",
+      "bytes": 553
+    },
+    {
+      "path": "replay/balanced/diagonal-certificate.json",
+      "sha256": "674f168be8dfde4a54af19310a22b59cf34bf3fa2c370a7b261748d55ae2dbe4",
+      "bytes": 54255
+    },
+    {
+      "path": "replay/before-factor/verification.json",
+      "sha256": "9c2a89451d5436e4731bc972b76cf3515a6ef7cfdb4425fe5d0c3c7cd96dc0d3",
+      "bytes": 469
+    },
+    {
+      "path": "replay/compiled/compiler-report.json",
+      "sha256": "ff6db8a4d20edcac8b04f0a582eb11fb384b743230821043cdcc3a8f6dafec1a",
+      "bytes": 1461
+    }
+  ]
+}
